@@ -30,7 +30,7 @@ export default function RootLayout({
           'dark'
         )}
       >
-        <div className='flex min-h-screen flex-col items-center px-3 pt-8'>
+        <div className='flex min-h-screen flex-col items-center'>
           {children}
         </div>
         <Separator className='mt-3 w-full' />

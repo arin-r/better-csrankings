@@ -1,9 +1,13 @@
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
+import Link from "next/link";
 
-const Home = async () => {
+const Home = () => {
   return (
     <div>
-      <Button>Click me</Button>
+      <Link href="/home" className={buttonVariants({
+      })}>
+        Log In
+      </Link>
     </div>
   );
 };
