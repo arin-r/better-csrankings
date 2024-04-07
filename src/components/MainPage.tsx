@@ -15,7 +15,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { Filters, PublicationWithoutAffiliation } from "@/lib/types";
+import { Filters, PublicationWithoutAffiliation, areas } from "@/lib/types";
 import { useState } from "react";
 
 const countUniqueAuthors = (
@@ -39,16 +39,16 @@ const MainPage = ({
     startYear: "1986",
     endYear: "2023",
     universityName: "",
-    areasOfResearch: [],
+    areasOfResearch: areas.map((area) => area.value),
   });
-
+  const [sheetIsOpen, setSheetIsOpen] = useState(false);
   const filteredPublicationsByAffiliation: [
     string,
     PublicationWithoutAffiliation[],
   ][] = publicationsByAffiliation
     .filter((pubByAff) => {
       const [affiliation, publications] = pubByAff;
-      return affiliation.includes(filters.universityName);
+      return affiliation.toLowerCase().includes(filters.universityName.toLowerCase());
     })
     .map((pubByAff) => {
       const [affiliation, publications] = pubByAff;
@@ -56,7 +56,8 @@ const MainPage = ({
         return (
           parseInt(pub.year) >= parseInt(filters.startYear) &&
           parseInt(pub.year) <= parseInt(filters.endYear) &&
-          (filters.areasOfResearch.length === 0 || filters.areasOfResearch.some((area) => pub.FOR.includes(area)))
+          (filters.areasOfResearch.length === 0 ||
+            filters.areasOfResearch.some((area) => pub.FOR.includes(area)))
         );
       });
 
@@ -75,13 +76,17 @@ const MainPage = ({
             </Link>
           </div>
           <div className="p-4">
-            <SearchFilters setFilters={setFilters} />
+            <SearchFilters
+              setFilters={setFilters}
+              filters={filters}
+              setSheetIsOpen={setSheetIsOpen}
+            />
           </div>
         </div>
       </div>
       <div className="flex flex-col">
         <header className="flex h-14 items-center gap-4 border-b bg-muted/40 px-4 lg:h-[60px] lg:px-6">
-          <Sheet>
+          <Sheet open={sheetIsOpen} onOpenChange={setSheetIsOpen}>
             <SheetTrigger asChild>
               <Button
                 variant="outline"
@@ -103,7 +108,11 @@ const MainPage = ({
                 </Link>
               </nav>
               <div className="mt-5">
-                <SearchFilters setFilters={setFilters} />
+                <SearchFilters
+                  setFilters={setFilters}
+                  filters={filters}
+                  setSheetIsOpen={setSheetIsOpen}
+                />
               </div>
             </SheetContent>
           </Sheet>

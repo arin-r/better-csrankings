@@ -24,43 +24,23 @@ import {
   AlertDialogTitle,
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
-import { Filters } from "@/lib/types";
+import { Filters, areas } from "@/lib/types";
 
-const areas: { value: string; label: string }[] = [
-  { value: "Artificial intelligence", label: "Artificial Intelligence" },
-  { value: "Machine learning", label: "Machine Learning" },
-  {
-    value: "Computer vision and multimedia computation",
-    label: "Computer Vision",
-  },
-  {
-    value: "Data management and data science",
-    label: "Data Management",
-  },
-  {
-    value: "Distributed computing and systems software",
-    label: "Distributed Computing",
-  },
-  { value: "Theory of computation", label: "Theory of Computation" },
-  { value: "Software engineering", label: "Software Engineering" },
-  { value: "Cybersecurity and privacy", label: "Cybersecurity" },
-  { value: "Human-centred computing", label: "Human-centred Computing" },
-  {
-    value: "Graphics, augmented reality and games",
-    label: "Graphics and Games",
-  },
-  { value: "Applied computing", label: "Applied Computing" },
-];
+
 
 const SearchFilters = ({
   setFilters,
+  setSheetIsOpen,
+  filters
 }: {
   setFilters: React.Dispatch<React.SetStateAction<Filters>>;
+  setSheetIsOpen: React.Dispatch<React.SetStateAction<boolean>>;
+  filters: Filters;
 }) => {
   const [openAlertDialog, setOpenAlertDialog] = useState(false);
-  const [startYear, setStartYear] = useState("1986");
-  const [endYear, setEndYear] = useState("2023");
-  const [selectedAreas, setSelectedAreas] = useState<string[]>(areas.map(a => a.value)); // [1
+  const [startYear, setStartYear] = useState(filters.startYear);
+  const [endYear, setEndYear] = useState(filters.endYear);
+  const [selectedAreas, setSelectedAreas] = useState<string[]>(filters.areasOfResearch); // [1
   const handleStartYearChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setStartYear(e.target.value);
   };
@@ -181,6 +161,7 @@ const SearchFilters = ({
               endYear,
               areasOfResearch: selectedAreas,
             }));
+            setSheetIsOpen(false);
           }
         }}
       >
