@@ -55,15 +55,15 @@ const MainPage = ({
       let filteredPublications = publications.filter((pub) => {
         return (
           parseInt(pub.year) >= parseInt(filters.startYear) &&
-          parseInt(pub.year) <= parseInt(filters.endYear)
+          parseInt(pub.year) <= parseInt(filters.endYear) &&
+          (filters.areasOfResearch.length === 0 || filters.areasOfResearch.some((area) => pub.FOR.includes(area)))
         );
       });
 
       return [affiliation, filteredPublications];
     });
-  let sortedAndFilteredPublicationsByAffiliation = filteredPublicationsByAffiliation.sort(
-    (a, b) => b[1].length - a[1].length
-  );
+  let sortedAndFilteredPublicationsByAffiliation =
+    filteredPublicationsByAffiliation.sort((a, b) => b[1].length - a[1].length);
   return (
     <div className="grid min-h-screen w-full md:grid-cols-[220px_1fr] lg:grid-cols-[280px_1fr]">
       <div className="hidden border-r bg-muted/40 md:block">
@@ -71,7 +71,7 @@ const MainPage = ({
           <div className="flex h-14 items-center border-b px-4 lg:h-[60px] lg:px-6">
             <Link href="/" className="flex items-center gap-2 font-semibold">
               <Package2 className="h-6 w-6" />
-              <span className="">CS Rankings</span>
+              <span className="h-">CS Rankings</span>
             </Link>
           </div>
           <div className="p-4">
@@ -113,8 +113,14 @@ const MainPage = ({
                 <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
                 <Input
                   type="search"
-                  placeholder="Search products..."
+                  placeholder="Search Universities..."
                   className="w-full appearance-none bg-background pl-8 shadow-none md:w-2/3 lg:w-1/3"
+                  onChange={(e) => {
+                    setFilters({
+                      ...filters,
+                      universityName: e.target.value,
+                    });
+                  }}
                 />
               </div>
             </form>
@@ -135,23 +141,25 @@ const MainPage = ({
               </TableRow>
             </TableHeader>
             <TableBody>
-              {sortedAndFilteredPublicationsByAffiliation.map((pubByAff, idx) => {
-                const [affiliation, publications] = pubByAff;
+              {sortedAndFilteredPublicationsByAffiliation.map(
+                (pubByAff, idx) => {
+                  const [affiliation, publications] = pubByAff;
 
-                return (
-                  /// wrong practice to use idx as key
-                  <TableRow key={idx}>
-                    <TableCell className="font-medium">{idx + 1}</TableCell>
-                    <TableCell>{affiliation}</TableCell>
-                    <TableCell className="text-right">
-                      {publications.length}
-                    </TableCell>
-                    <TableCell className="text-right">
-                      {countUniqueAuthors(publications)}
-                    </TableCell>
-                  </TableRow>
-                );
-              })}
+                  return (
+                    /// wrong practice to use idx as key
+                    <TableRow key={idx}>
+                      <TableCell className="font-medium">{idx + 1}</TableCell>
+                      <TableCell>{affiliation}</TableCell>
+                      <TableCell className="text-right">
+                        {publications.length}
+                      </TableCell>
+                      <TableCell className="text-right">
+                        {countUniqueAuthors(publications)}
+                      </TableCell>
+                    </TableRow>
+                  );
+                }
+              )}
             </TableBody>
           </Table>
         </main>

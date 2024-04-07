@@ -26,6 +26,32 @@ import {
 } from "@/components/ui/alert-dialog";
 import { Filters } from "@/lib/types";
 
+const areas: { value: string; label: string }[] = [
+  { value: "Artificial intelligence", label: "Artificial Intelligence" },
+  { value: "Machine learning", label: "Machine Learning" },
+  {
+    value: "Computer vision and multimedia computation",
+    label: "Computer Vision",
+  },
+  {
+    value: "Data management and data science",
+    label: "Data Management",
+  },
+  {
+    value: "Distributed computing and systems software",
+    label: "Distributed Computing",
+  },
+  { value: "Theory of computation", label: "Theory of Computation" },
+  { value: "Software engineering", label: "Software Engineering" },
+  { value: "Cybersecurity and privacy", label: "Cybersecurity" },
+  { value: "Human-centred computing", label: "Human-centred Computing" },
+  {
+    value: "Graphics, augmented reality and games",
+    label: "Graphics and Games",
+  },
+  { value: "Applied computing", label: "Applied Computing" },
+];
+
 const SearchFilters = ({
   setFilters,
 }: {
@@ -34,12 +60,14 @@ const SearchFilters = ({
   const [openAlertDialog, setOpenAlertDialog] = useState(false);
   const [startYear, setStartYear] = useState("1986");
   const [endYear, setEndYear] = useState("2023");
+  const [selectedAreas, setSelectedAreas] = useState<string[]>(areas.map(a => a.value)); // [1
   const handleStartYearChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setStartYear(e.target.value);
   };
   const handleEndYearChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setEndYear(e.target.value);
   };
+
 
   console.log(startYear);
   return (
@@ -55,52 +83,27 @@ const SearchFilters = ({
           </CardDescription>
         </CardHeader>
         <CardContent className="p-2 pt-0 md:p-4 md:pt-0">
-          <div className="space-y-3">
-            <div className="flex items-center space-x-2">
-              <Checkbox id="terms" />
-              <label
-                htmlFor="terms"
-                className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-              >
-                Artificial Intelligence
-              </label>
-            </div>
-            <div className="flex items-center space-x-2">
-              <Checkbox id="terms" />
-              <label
-                htmlFor="terms"
-                className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-              >
-                Distrbuted Computing
-              </label>
-            </div>
-            <div className="flex items-center space-x-2">
-              <Checkbox id="terms" />
-              <label
-                htmlFor="terms"
-                className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-              >
-                Theory of Computation
-              </label>
-            </div>
-            <div className="flex items-center space-x-2">
-              <Checkbox id="terms" />
-              <label
-                htmlFor="terms"
-                className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-              >
-                Software Engineering
-              </label>
-            </div>
-            <div className="flex items-center space-x-2">
-              <Checkbox id="terms" />
-              <label
-                htmlFor="terms"
-                className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-              >
-                Cybersecurity
-              </label>
-            </div>
+          <div className="space-y-3 h-[12rem] md:h-[18rem] overflow-scroll">
+            {areas.map((area) => {
+              return (
+                <div key={area.value} className="flex items-center space-x-2">
+                  <Checkbox id={area.value} checked={selectedAreas.includes(area.value)} onClick={() => {
+                    // remove area.value from selectedAreas if it is already present
+                    if (selectedAreas.includes(area.value)) {
+                      setSelectedAreas(selectedAreas.filter(a => a !== area.value));
+                    } else {
+                      setSelectedAreas([...selectedAreas, area.value]);
+                    }
+                  }}/>
+                  <label
+                    htmlFor={area.value}
+                    className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                  >
+                    {area.label}
+                  </label>
+                </div>
+              );
+            })}
           </div>
         </CardContent>
       </Card>
@@ -137,33 +140,6 @@ const SearchFilters = ({
             />
           </div>
 
-          <Button
-            className="w-full mt-4"
-            onClick={() => {
-              const yearRegex = /^[1-9]\d*$/;
-              if (startYear == "") {
-                setEndYear("1986");
-              }
-              if (endYear == "") {
-                setEndYear("2023");
-              }
-              const isValid =
-                yearRegex.test(startYear) &&
-                yearRegex.test(endYear) &&
-                parseInt(startYear) < parseInt(endYear);
-              if (!isValid) {
-                setOpenAlertDialog(true);
-              } else {
-                setFilters((prev) => ({
-                  ...prev,
-                  startYear,
-                  endYear,
-                }));
-              }
-            }}
-          >
-            Search
-          </Button>
           <AlertDialog open={openAlertDialog} onOpenChange={setOpenAlertDialog}>
             <AlertDialogTrigger asChild></AlertDialogTrigger>
             <AlertDialogContent>
@@ -182,6 +158,34 @@ const SearchFilters = ({
           </AlertDialog>
         </CardContent>
       </Card>
+      <Button
+        className="w-full mt-4"
+        onClick={() => {
+          const yearRegex = /^[1-9]\d*$/;
+          if (startYear == "") {
+            setEndYear("1986");
+          }
+          if (endYear == "") {
+            setEndYear("2023");
+          }
+          const isValid =
+            yearRegex.test(startYear) &&
+            yearRegex.test(endYear) &&
+            parseInt(startYear) < parseInt(endYear);
+          if (!isValid) {
+            setOpenAlertDialog(true);
+          } else {
+            setFilters((prev) => ({
+              ...prev,
+              startYear,
+              endYear,
+              areasOfResearch: selectedAreas,
+            }));
+          }
+        }}
+      >
+        Apply Filters
+      </Button>
     </div>
   );
 };
