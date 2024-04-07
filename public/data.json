@@ -1,4 +1,30 @@
 {
+  "1985": [
+    {
+      "author": "Srikanth T. K",
+      "affiliation": "IIIT Bangalore",
+      "points": 0.5,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Srikanth T. K",
+      "affiliation": "IIIT Bangalore",
+      "points": 0.3333333333333333,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "T. K. Srikanth",
+      "affiliation": "IIIT Bangalore",
+      "points": 0.5,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "T. K. Srikanth",
+      "affiliation": "IIIT Bangalore",
+      "points": 0.3333333333333333,
+      "FOR": ["Distributed computing and systems software"]
+    }
+  ],
   "1986": [
     {
       "author": "Matthew J. Thazhuthaveetil",
@@ -53,6 +79,18 @@
       "affiliation": "IIT Ropar",
       "points": 0.25,
       "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Somenath Biswas",
+      "affiliation": "IIT Kanpur",
+      "points": 0.5,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Timothy A. Gonsalves",
+      "affiliation": "IIT Mandi",
+      "points": 0.5,
+      "FOR": ["Software engineering"]
     }
   ],
   "1990": [
@@ -103,6 +141,12 @@
       "affiliation": "IIT Kanpur",
       "points": 0.25,
       "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Subrahmanyam Kambhampati Venkata",
+      "affiliation": "CMI",
+      "points": 0.3333333333333333,
+      "FOR": ["Theory of computation"]
     }
   ],
   "1994": [
@@ -209,6 +253,12 @@
       "affiliation": "IIT Bombay",
       "points": 0.25,
       "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Subrahmanyam Kambhampati Venkata",
+      "affiliation": "CMI",
+      "points": 0.25,
+      "FOR": ["Theory of computation"]
     }
   ],
   "1999": [
@@ -241,6 +291,18 @@
       "affiliation": "IIT Bombay",
       "points": 0.2,
       "FOR": ["Data management and data science"]
+    },
+    {
+      "author": "Somenath Biswas",
+      "affiliation": "IIT Kanpur",
+      "points": 0.5,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Subrahmanyam Kambhampati Venkata",
+      "affiliation": "CMI",
+      "points": 0.3333333333333333,
+      "FOR": ["Theory of computation"]
     }
   ],
   "2000": [
@@ -399,6 +461,12 @@
       "affiliation": "IIT Kanpur",
       "points": 0.3333333333333333,
       "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Venkatesh Raman 0001",
+      "affiliation": "IMSc",
+      "points": 0.25,
+      "FOR": ["Theory of computation"]
     }
   ],
   "2004": [
@@ -442,6 +510,18 @@
       "author": "Richa Singh 0001",
       "affiliation": "IIT Jodhpur",
       "points": 0.00980392156862745,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Sorav Bansal",
+      "affiliation": "IIT Delhi",
+      "points": 0.5,
+      "FOR": ["Data management and data science"]
+    },
+    {
+      "author": "V. Sridhar",
+      "affiliation": "IIIT Bangalore",
+      "points": 0.16666666666666666,
       "FOR": ["Distributed computing and systems software"]
     }
   ],
@@ -636,6 +716,15 @@
       "affiliation": "IIT Kanpur",
       "points": 0.3333333333333333,
       "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Sorav Bansal",
+      "affiliation": "IIT Delhi",
+      "points": 0.5,
+      "FOR": [
+        "Software engineering",
+        "Distributed computing and systems software"
+      ]
     }
   ],
   "2007": [
@@ -698,6 +787,27 @@
       "affiliation": "IIT Bombay",
       "points": 0.2,
       "FOR": ["Data management and data science"]
+    },
+    {
+      "author": "Sujoy Ghose",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.25,
+      "FOR": ["Cybersecurity and privacy"]
+    },
+    {
+      "author": "Sujoy Ghose",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.25,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Varsha Apte",
+      "affiliation": "IIT Bombay",
+      "points": 0.5,
+      "FOR": [
+        "Distributed computing and systems software",
+        "Data management and data science"
+      ]
     }
   ],
   "2008": [
@@ -817,6 +927,39 @@
       "affiliation": "IIIT Hyderabad",
       "points": 0.25,
       "FOR": ["Cybersecurity and privacy"]
+    },
+    {
+      "author": "Sorav Bansal",
+      "affiliation": "IIT Delhi",
+      "points": 0.5,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Sukomal Pal",
+      "affiliation": "IIT (BHU) Varanasi",
+      "points": 0.125,
+      "FOR": ["Data management and data science"]
+    },
+    {
+      "author": "Timothy A. Gonsalves",
+      "affiliation": "IIT Mandi",
+      "points": 0.3333333333333333,
+      "FOR": [
+        "Distributed computing and systems software",
+        "Data management and data science"
+      ]
+    },
+    {
+      "author": "V. N. Muralidhara",
+      "affiliation": "IIIT Bangalore",
+      "points": 0.3333333333333333,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Vivek Kumar 0001",
+      "affiliation": "IIIT Delhi",
+      "points": 0.25,
+      "FOR": ["Distributed computing and systems software"]
     }
   ],
   "2009": [
@@ -933,6 +1076,51 @@
       "affiliation": "IIT Kanpur",
       "points": 0.5,
       "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Somenath Biswas",
+      "affiliation": "IIT Kanpur",
+      "points": 0.16666666666666666,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Sumit Ganguly",
+      "affiliation": "IIT Kanpur",
+      "points": 0.5,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "U. Ramakrishna",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.25,
+      "FOR": [
+        "Distributed computing and systems software",
+        "Data management and data science"
+      ]
+    },
+    {
+      "author": "U. Ramakrishna 0001",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.25,
+      "FOR": [
+        "Distributed computing and systems software",
+        "Data management and data science"
+      ]
+    },
+    {
+      "author": "V. N. Muralidhara",
+      "affiliation": "IIIT Bangalore",
+      "points": 0.25,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Varsha Apte",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": [
+        "Distributed computing and systems software",
+        "Data management and data science"
+      ]
     }
   ],
   "2010": [
@@ -1057,6 +1245,36 @@
       "author": "Shashank K. Mehta",
       "affiliation": "IIT Kanpur",
       "points": 0.3333333333333333,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Somenath Biswas",
+      "affiliation": "IIT Kanpur",
+      "points": 0.3333333333333333,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Sujoy Ghose",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.25,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Sujoy Ghose",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.3333333333333333,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Tricha Anjali",
+      "affiliation": "IIIT Bangalore",
+      "points": 0.25,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Tricha Anjali",
+      "affiliation": "IIIT Bangalore",
+      "points": 0.16666666666666666,
       "FOR": ["Distributed computing and systems software"]
     }
   ],
@@ -1223,6 +1441,24 @@
       "affiliation": "IIIT Delhi",
       "points": 0.25,
       "FOR": ["Cybersecurity and privacy"]
+    },
+    {
+      "author": "Tricha Anjali",
+      "affiliation": "IIIT Bangalore",
+      "points": 0.3333333333333333,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Venkatesh Raman 0001",
+      "affiliation": "IMSc",
+      "points": 0.3333333333333333,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Venkatesh Raman 0001",
+      "affiliation": "IMSc",
+      "points": 0.25,
+      "FOR": ["Theory of computation"]
     }
   ],
   "2012": [
@@ -1416,6 +1652,68 @@
       "affiliation": "IIT Bombay",
       "points": 0.25,
       "FOR": ["Machine learning"]
+    },
+    {
+      "author": "Sumit Ganguly",
+      "affiliation": "IIT Kanpur",
+      "points": 0.5,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Sundar Vishwanathan",
+      "affiliation": "IIT Bombay",
+      "points": 0.5,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Suyash P. Awate",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": ["Applied computing", "Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Swagatam Das",
+      "affiliation": "ISI Kolkata",
+      "points": 0.25,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Swagatam Das",
+      "affiliation": "ISI Kolkata",
+      "points": 0.3333333333333333,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Venkatesh Raman 0001",
+      "affiliation": "IMSc",
+      "points": 0.25,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Y. Narahari",
+      "affiliation": "IISc Bangalore",
+      "points": 0.2,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Yashaswi Verma",
+      "affiliation": "IIT Jodhpur",
+      "points": 0.3333333333333333,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Yashaswi Verma",
+      "affiliation": "IIT Jodhpur",
+      "points": 0.5,
+      "FOR": ["Computer vision and multimedia computation"]
     }
   ],
   "2013": [
@@ -1607,6 +1905,85 @@
       "affiliation": "IIT Bombay",
       "points": 0.5,
       "FOR": ["Machine learning", "Artificial intelligence"]
+    },
+    {
+      "author": "Sorav Bansal",
+      "affiliation": "IIT Delhi",
+      "points": 0.25,
+      "FOR": [
+        "Software engineering",
+        "Distributed computing and systems software"
+      ]
+    },
+    {
+      "author": "Sorav Bansal",
+      "affiliation": "IIT Delhi",
+      "points": 0.3333333333333333,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Sorav Bansal",
+      "affiliation": "IIT Delhi",
+      "points": 0.5,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Sujith Thomas",
+      "affiliation": "BITS Pilani-Goa",
+      "points": 0.25,
+      "FOR": ["Applied computing", "Human-centred computing"]
+    },
+    {
+      "author": "Sundar Vishwanathan",
+      "affiliation": "IIT Bombay",
+      "points": 0.5,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Suyash P. Awate",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": ["Machine learning"]
+    },
+    {
+      "author": "U. Ramakrishna 0001",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.5,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "V. N. Muralidhara",
+      "affiliation": "IIIT Bangalore",
+      "points": 0.25,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Varsha Apte",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Vineeth N. Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.16666666666666666,
+      "FOR": ["Data management and data science", "Machine learning"]
+    },
+    {
+      "author": "Yamuna Prasad",
+      "affiliation": "IIT Jammu",
+      "points": 0.3333333333333333,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Yashaswi Verma",
+      "affiliation": "IIT Jodhpur",
+      "points": 0.5,
+      "FOR": ["Computer vision and multimedia computation"]
     }
   ],
   "2014": [
@@ -1888,6 +2265,66 @@
       "affiliation": "IIT Bombay",
       "points": 0.25,
       "FOR": ["Machine learning"]
+    },
+    {
+      "author": "Somenath Biswas",
+      "affiliation": "IIT Kanpur",
+      "points": 0.3333333333333333,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Sourangshu Bhattacharya",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.2,
+      "FOR": ["Data management and data science", "Artificial intelligence"]
+    },
+    {
+      "author": "Sumit Kalra",
+      "affiliation": "IIT Jodhpur",
+      "points": 0.3333333333333333,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Suyash P. Awate",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": ["Applied computing", "Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Tricha Anjali",
+      "affiliation": "IIIT Bangalore",
+      "points": 0.3333333333333333,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Vinod Ganapathy",
+      "affiliation": "IISc Bangalore",
+      "points": 0.3333333333333333,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Vinod M. Prabhakaran",
+      "affiliation": "Tata Inst. of Fundamental Research",
+      "points": 0.3333333333333333,
+      "FOR": ["Cybersecurity and privacy"]
+    },
+    {
+      "author": "Y.N. Srikant",
+      "affiliation": "IISc Bangalore",
+      "points": 0.5,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Yashaswi Verma",
+      "affiliation": "IIT Jodhpur",
+      "points": 0.5,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Yashaswi Verma",
+      "affiliation": "IIT Jodhpur",
+      "points": 0.3333333333333333,
+      "FOR": ["Computer vision and multimedia computation"]
     }
   ],
   "2015": [
@@ -2255,6 +2692,127 @@
       "author": "Sharat Chandran",
       "affiliation": "IIT Bombay",
       "points": 0.3333333333333333,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Sorav Bansal",
+      "affiliation": "IIT Delhi",
+      "points": 0.3333333333333333,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Sourav Kumar Dandapat",
+      "affiliation": "IIT Patna",
+      "points": 0.2,
+      "FOR": ["Human-centred computing"]
+    },
+    {
+      "author": "Sumit Ganguly",
+      "affiliation": "IIT Kanpur",
+      "points": 0.5,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Sundar Vishwanathan",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Sundar Vishwanathan",
+      "affiliation": "IIT Bombay",
+      "points": 0.5,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Sunil Easaw Simon",
+      "affiliation": "IIT Kanpur",
+      "points": 0.3333333333333333,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Sunil Simon",
+      "affiliation": "IIT Kanpur",
+      "points": 0.3333333333333333,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Swaroop Joshi",
+      "affiliation": "BITS Pilani-Goa",
+      "points": 0.3333333333333333,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Swaroop Joshi",
+      "affiliation": "BITS Pilani-Goa",
+      "points": 0.3333333333333333,
+      "FOR": ["Human-centred computing"]
+    },
+    {
+      "author": "Syamantak Das",
+      "affiliation": "IIIT Delhi",
+      "points": 0.25,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "T. Venkatesh",
+      "affiliation": "IIT Guwahati",
+      "points": 0.16666666666666666,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Uday Bondhugula",
+      "affiliation": "IISc Bangalore",
+      "points": 0.3333333333333333,
+      "FOR": [
+        "Software engineering",
+        "Distributed computing and systems software"
+      ]
+    },
+    {
+      "author": "Uday P. Khedker",
+      "affiliation": "IIT Bombay",
+      "points": 0.5,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Uday P. Khedker",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "V. Krishna Nandivada",
+      "affiliation": "IIT Madras",
+      "points": 0.5,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "V. Krishna Nandivada",
+      "affiliation": "IIT Madras",
+      "points": 0.5,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Vinod Ganapathy",
+      "affiliation": "IISc Bangalore",
+      "points": 0.25,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Yamuna Prasad",
+      "affiliation": "IIT Jammu",
+      "points": 0.5,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Yashaswi Verma",
+      "affiliation": "IIT Jodhpur",
+      "points": 0.5,
       "FOR": ["Computer vision and multimedia computation"]
     }
   ],
@@ -2654,6 +3212,104 @@
       "affiliation": "IIT Guwahati",
       "points": 0.25,
       "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Somindu C. Ramanna",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.3333333333333333,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Sudeshna Sarkar",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.14285714285714285,
+      "FOR": ["Data management and data science", "Machine learning"]
+    },
+    {
+      "author": "Sudip Mishra",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.25,
+      "FOR": ["Machine learning"]
+    },
+    {
+      "author": "Sundaresan Raman",
+      "affiliation": "BITS Pilani",
+      "points": 0.2,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Sunil Easaw Simon",
+      "affiliation": "IIT Kanpur",
+      "points": 0.5,
+      "FOR": [
+        "Artificial intelligence",
+        "Machine learning",
+        "Computer vision and multimedia computation"
+      ]
+    },
+    {
+      "author": "Sunil Simon",
+      "affiliation": "IIT Kanpur",
+      "points": 0.5,
+      "FOR": [
+        "Artificial intelligence",
+        "Machine learning",
+        "Computer vision and multimedia computation"
+      ]
+    },
+    {
+      "author": "Surender Baswana",
+      "affiliation": "IIT Kanpur",
+      "points": 0.25,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Surender Baswana",
+      "affiliation": "IIT Kanpur",
+      "points": 0.3333333333333333,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "T. Venkatesh",
+      "affiliation": "IIT Guwahati",
+      "points": 0.16666666666666666,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "U. Ramakrishna",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.3333333333333333,
+      "FOR": ["Data management and data science", "Artificial intelligence"]
+    },
+    {
+      "author": "Uday Bondhugula",
+      "affiliation": "IISc Bangalore",
+      "points": 0.3333333333333333,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Uday P. Khedker",
+      "affiliation": "IIT Bombay",
+      "points": 0.5,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Umang Bhaskar",
+      "affiliation": "Tata Inst. of Fundamental Research",
+      "points": 0.25,
+      "FOR": ["Artificial intelligence", "Theory of computation"]
+    },
+    {
+      "author": "Vikram Sharma 0001",
+      "affiliation": "IMSc",
+      "points": 0.2,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Vinod M. Prabhakaran",
+      "affiliation": "Tata Inst. of Fundamental Research",
+      "points": 0.5,
+      "FOR": ["Theory of computation"]
     }
   ],
   "2017": [
@@ -3135,6 +3791,170 @@
       "affiliation": "IIIT Hyderabad",
       "points": 0.1,
       "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Srikanth T. K",
+      "affiliation": "IIIT Bangalore",
+      "points": 0.1111111111111111,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Sriparna Saha 0001",
+      "affiliation": "IIT Patna",
+      "points": 0.25,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Subrahmanyam Kambhampati Venkata",
+      "affiliation": "CMI",
+      "points": 0.3333333333333333,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Sudip Roy 0001",
+      "affiliation": "IIT Roorkee",
+      "points": 0.045454545454545456,
+      "FOR": ["Data management and data science", "Machine learning"]
+    },
+    {
+      "author": "Sumit Ganguly",
+      "affiliation": "IIT Kanpur",
+      "points": 0.2,
+      "FOR": ["Data management and data science", "Machine learning"]
+    },
+    {
+      "author": "Sundaresan Raman",
+      "affiliation": "BITS Pilani",
+      "points": 0.16666666666666666,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Sunil Easaw Simon",
+      "affiliation": "IIT Kanpur",
+      "points": 0.5,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Sunil Easaw Simon",
+      "affiliation": "IIT Kanpur",
+      "points": 0.5,
+      "FOR": [
+        "Artificial intelligence",
+        "Machine learning",
+        "Computer vision and multimedia computation"
+      ]
+    },
+    {
+      "author": "Sunil Simon",
+      "affiliation": "IIT Kanpur",
+      "points": 0.5,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Sunil Simon",
+      "affiliation": "IIT Kanpur",
+      "points": 0.5,
+      "FOR": [
+        "Artificial intelligence",
+        "Machine learning",
+        "Computer vision and multimedia computation"
+      ]
+    },
+    {
+      "author": "Surender Baswana",
+      "affiliation": "IIT Kanpur",
+      "points": 0.3333333333333333,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Sutanu Chakraborti",
+      "affiliation": "IIT Madras",
+      "points": 0.5,
+      "FOR": [
+        "Artificial intelligence",
+        "Machine learning",
+        "Computer vision and multimedia computation"
+      ]
+    },
+    {
+      "author": "Syamantak Das",
+      "affiliation": "IIIT Delhi",
+      "points": 0.5,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Syamantak Das",
+      "affiliation": "IIIT Delhi",
+      "points": 0.25,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "T. K. Srikanth",
+      "affiliation": "IIIT Bangalore",
+      "points": 0.1111111111111111,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Timothy A. Gonsalves",
+      "affiliation": "IIT Mandi",
+      "points": 0.25,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Uday Bondhugula",
+      "affiliation": "IISc Bangalore",
+      "points": 0.25,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Umesh Bellur",
+      "affiliation": "IIT Bombay",
+      "points": 0.25,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Umesh Bellur",
+      "affiliation": "IIT Bombay",
+      "points": 0.25,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "V. Krishna Nandivada",
+      "affiliation": "IIT Madras",
+      "points": 0.3333333333333333,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "V. Krishna Nandivada",
+      "affiliation": "IIT Madras",
+      "points": 0.5,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Vikram Sharma 0001",
+      "affiliation": "IMSc",
+      "points": 0.5,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Vinod Ganapathy",
+      "affiliation": "IISc Bangalore",
+      "points": 0.5,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Vishal Garg",
+      "affiliation": "IIIT Hyderabad",
+      "points": 0.25,
+      "FOR": ["Data management and data science"]
     }
   ],
   "2018": [
@@ -3743,6 +4563,228 @@
       "affiliation": "IIT Guwahati",
       "points": 0.25,
       "FOR": ["Data management and data science"]
+    },
+    {
+      "author": "Somak Aditya",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.3333333333333333,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Sorav Bansal",
+      "affiliation": "IIT Delhi",
+      "points": 0.25,
+      "FOR": ["Artificial intelligence", "Theory of computation"]
+    },
+    {
+      "author": "Sougata Sen",
+      "affiliation": "BITS Pilani-Goa",
+      "points": 0.25,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Soumya K. Ghosh",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.16666666666666666,
+      "FOR": ["Data management and data science"]
+    },
+    {
+      "author": "Soumya K. Ghosh 0001",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.16666666666666666,
+      "FOR": ["Data management and data science"]
+    },
+    {
+      "author": "Soumya K. Ghosh 0001",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.25,
+      "FOR": [
+        "Distributed computing and systems software",
+        "Data management and data science"
+      ]
+    },
+    {
+      "author": "Soumya Kanti Ghosh 0001",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.25,
+      "FOR": [
+        "Distributed computing and systems software",
+        "Data management and data science"
+      ]
+    },
+    {
+      "author": "Sourav Chakraborty 0001",
+      "affiliation": "ISI Kolkata",
+      "points": 0.2,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Srikanta J. Bedathur",
+      "affiliation": "IIT Delhi",
+      "points": 0.07692307692307693,
+      "FOR": ["Data management and data science"]
+    },
+    {
+      "author": "Subodh Sharma 0001",
+      "affiliation": "IIT Delhi",
+      "points": 0.25,
+      "FOR": ["Software engineering", "Theory of computation"]
+    },
+    {
+      "author": "Subodh Vishnu Sharma",
+      "affiliation": "IIT Delhi",
+      "points": 0.25,
+      "FOR": ["Software engineering", "Theory of computation"]
+    },
+    {
+      "author": "Subodh Vishnu Sharma",
+      "affiliation": "IIT Delhi",
+      "points": 0.25,
+      "FOR": ["Cybersecurity and privacy"]
+    },
+    {
+      "author": "Sudeshna Kolay",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.3333333333333333,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Sudeshna Kolay",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.25,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Sudip Mishra",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.25,
+      "FOR": ["Machine learning"]
+    },
+    {
+      "author": "Sudip Mishra",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.25,
+      "FOR": ["Data management and data science", "Machine learning"]
+    },
+    {
+      "author": "Sukumar Nandi",
+      "affiliation": "IIT Guwahati",
+      "points": 0.1,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Sumit Ganguly",
+      "affiliation": "IIT Kanpur",
+      "points": 0.2,
+      "FOR": ["Data management and data science", "Artificial intelligence"]
+    },
+    {
+      "author": "Sumit Ganguly",
+      "affiliation": "IIT Kanpur",
+      "points": 0.5,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Surender Baswana",
+      "affiliation": "IIT Kanpur",
+      "points": 0.25,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Surender Baswana",
+      "affiliation": "IIT Kanpur",
+      "points": 0.3333333333333333,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Surjya Ghosh",
+      "affiliation": "BITS Pilani-Goa",
+      "points": 0.16666666666666666,
+      "FOR": ["Data management and data science"]
+    },
+    {
+      "author": "Sutanu Chakraborti",
+      "affiliation": "IIT Madras",
+      "points": 0.5,
+      "FOR": [
+        "Artificial intelligence",
+        "Machine learning",
+        "Computer vision and multimedia computation"
+      ]
+    },
+    {
+      "author": "Suyash P. Awate",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": ["Applied computing", "Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Suyash P. Awate",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": ["Applied computing", "Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Uday Bondhugula",
+      "affiliation": "IISc Bangalore",
+      "points": 0.3333333333333333,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Umang Bhaskar",
+      "affiliation": "Tata Inst. of Fundamental Research",
+      "points": 0.3333333333333333,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Umang Bhaskar",
+      "affiliation": "Tata Inst. of Fundamental Research",
+      "points": 0.25,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Umang Bhaskar",
+      "affiliation": "Tata Inst. of Fundamental Research",
+      "points": 0.5,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Utpal Garain",
+      "affiliation": "ISI Kolkata",
+      "points": 0.3333333333333333,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Utpal Garain",
+      "affiliation": "ISI Kolkata",
+      "points": 0.16666666666666666,
+      "FOR": ["Applied computing", "Computer vision and multimedia computation"]
+    },
+    {
+      "author": "V. Krishna Nandivada",
+      "affiliation": "IIT Madras",
+      "points": 0.1,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Venkatesh Raman 0001",
+      "affiliation": "IMSc",
+      "points": 0.25,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Y.N. Srikant",
+      "affiliation": "IISc Bangalore",
+      "points": 0.125,
+      "FOR": ["Software engineering"]
     }
   ],
   "2019": [
@@ -4723,6 +5765,252 @@
       "affiliation": "IIT Bombay",
       "points": 0.5,
       "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Somak Aditya",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.3333333333333333,
+      "FOR": [
+        "Artificial intelligence",
+        "Machine learning",
+        "Computer vision and multimedia computation"
+      ]
+    },
+    {
+      "author": "Somak Aditya",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.25,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Sorav Bansal",
+      "affiliation": "IIT Delhi",
+      "points": 0.3333333333333333,
+      "FOR": [
+        "Software engineering",
+        "Distributed computing and systems software"
+      ]
+    },
+    {
+      "author": "Sourav Chakraborty 0001",
+      "affiliation": "ISI Kolkata",
+      "points": 0.2,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Sriparna Saha 0001",
+      "affiliation": "IIT Patna",
+      "points": 0.25,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Subrahmanyam Kambhampati Venkata",
+      "affiliation": "CMI",
+      "points": 0.5,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Sudeshna Kolay",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.25,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Suman Banerjee 0002",
+      "affiliation": "IIT Jammu",
+      "points": 0.16666666666666666,
+      "FOR": ["Data management and data science"]
+    },
+    {
+      "author": "Sunil Easaw Simon",
+      "affiliation": "IIT Kanpur",
+      "points": 0.5,
+      "FOR": [
+        "Artificial intelligence",
+        "Machine learning",
+        "Computer vision and multimedia computation"
+      ]
+    },
+    {
+      "author": "Sunil Easaw Simon",
+      "affiliation": "IIT Kanpur",
+      "points": 0.3333333333333333,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Sunil Simon",
+      "affiliation": "IIT Kanpur",
+      "points": 0.5,
+      "FOR": [
+        "Artificial intelligence",
+        "Machine learning",
+        "Computer vision and multimedia computation"
+      ]
+    },
+    {
+      "author": "Sunil Simon",
+      "affiliation": "IIT Kanpur",
+      "points": 0.3333333333333333,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Surender Baswana",
+      "affiliation": "IIT Kanpur",
+      "points": 0.2,
+      "FOR": ["Artificial intelligence", "Theory of computation"]
+    },
+    {
+      "author": "Surender Baswana",
+      "affiliation": "IIT Kanpur",
+      "points": 0.3333333333333333,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Surjya Ghosh",
+      "affiliation": "BITS Pilani-Goa",
+      "points": 0.2,
+      "FOR": ["Human-centred computing"]
+    },
+    {
+      "author": "Suyash P. Awate",
+      "affiliation": "IIT Bombay",
+      "points": 0.2,
+      "FOR": ["Applied computing", "Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Swagato Sanyal",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.25,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Swaprava Nath",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Swaprava Nath",
+      "affiliation": "IIT Bombay",
+      "points": 0.25,
+      "FOR": [
+        "Artificial intelligence",
+        "Machine learning",
+        "Computer vision and multimedia computation"
+      ]
+    },
+    {
+      "author": "T. Venkatesh",
+      "affiliation": "IIT Guwahati",
+      "points": 0.07692307692307693,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation"
+      ]
+    },
+    {
+      "author": "Telikepalli Kavitha",
+      "affiliation": "Tata Inst. of Fundamental Research",
+      "points": 0.5,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Telikepalli Kavitha",
+      "affiliation": "Tata Inst. of Fundamental Research",
+      "points": 0.25,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Uday Bondhugula",
+      "affiliation": "IISc Bangalore",
+      "points": 0.5,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Umang Bhaskar",
+      "affiliation": "Tata Inst. of Fundamental Research",
+      "points": 0.2,
+      "FOR": [
+        "Artificial intelligence",
+        "Machine learning",
+        "Computer vision and multimedia computation"
+      ]
+    },
+    {
+      "author": "Utpal Garain",
+      "affiliation": "ISI Kolkata",
+      "points": 0.2,
+      "FOR": ["Data management and data science"]
+    },
+    {
+      "author": "V. Krishna Nandivada",
+      "affiliation": "IIT Madras",
+      "points": 0.5,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Veezhinathan Kamakoti",
+      "affiliation": "IIT Madras",
+      "points": 0.25,
+      "FOR": ["Cybersecurity and privacy"]
+    },
+    {
+      "author": "Veezhinathan Kamakoti",
+      "affiliation": "IIT Madras",
+      "points": 0.25,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Veezhinathan Kamakoti",
+      "affiliation": "IIT Madras",
+      "points": 0.16666666666666666,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Vimal Raj Sharma",
+      "affiliation": "IIT Jodhpur",
+      "points": 0.3333333333333333,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Vimalraj Sharma",
+      "affiliation": "IIT Jodhpur",
+      "points": 0.3333333333333333,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Vinay J. Ribeiro",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": ["Cybersecurity and privacy"]
+    },
+    {
+      "author": "Vinay Joseph Ribeiro",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": ["Cybersecurity and privacy"]
+    },
+    {
+      "author": "Vinay Namboodiri",
+      "affiliation": "IIT Kanpur",
+      "points": 0.25,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Vinay Namboodiri",
+      "affiliation": "IIT Kanpur",
+      "points": 0.25,
+      "FOR": [
+        "Artificial intelligence",
+        "Machine learning",
+        "Computer vision and multimedia computation"
+      ]
+    },
+    {
+      "author": "Vinay Namboodiri",
+      "affiliation": "IIT Kanpur",
+      "points": 0.25,
+      "FOR": ["Computer vision and multimedia computation"]
     }
   ],
   "2020": [
@@ -5797,6 +7085,278 @@
       "affiliation": "IIIT Hyderabad",
       "points": 0.16666666666666666,
       "FOR": ["Human-centred computing"]
+    },
+    {
+      "author": "Somak Aditya",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.16666666666666666,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Sorav Bansal",
+      "affiliation": "IIT Delhi",
+      "points": 0.3333333333333333,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Sourav Chakraborty 0001",
+      "affiliation": "ISI Kolkata",
+      "points": 0.2,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Sourav Kumar Dandapat",
+      "affiliation": "IIT Patna",
+      "points": 0.2,
+      "FOR": ["Data management and data science", "Artificial intelligence"]
+    },
+    {
+      "author": "Subhajit Roy 0001",
+      "affiliation": "IIT Kanpur",
+      "points": 0.2,
+      "FOR": [
+        "Artificial intelligence",
+        "Machine learning",
+        "Computer vision and multimedia computation"
+      ]
+    },
+    {
+      "author": "Subodh Sharma 0001",
+      "affiliation": "IIT Delhi",
+      "points": 0.3333333333333333,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Subodh Vishnu Sharma",
+      "affiliation": "IIT Delhi",
+      "points": 0.3333333333333333,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Sudarshan Iyengar",
+      "affiliation": "IIT Ropar",
+      "points": 0.5,
+      "FOR": [
+        "Distributed computing and systems software",
+        "Data management and data science"
+      ]
+    },
+    {
+      "author": "Sudip Roy 0001",
+      "affiliation": "IIT Roorkee",
+      "points": 0.125,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Sukhendu Das",
+      "affiliation": "IIT Madras",
+      "points": 0.5,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Sumana Ghosh",
+      "affiliation": "ISI Kolkata",
+      "points": 0.2,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Supratik Chakraborty",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Surender Baswana",
+      "affiliation": "IIT Kanpur",
+      "points": 0.3333333333333333,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "T. Venkatesh",
+      "affiliation": "IIT Guwahati",
+      "points": 0.14285714285714285,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Telikepalli Kavitha",
+      "affiliation": "Tata Inst. of Fundamental Research",
+      "points": 0.5,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Telikepalli Kavitha",
+      "affiliation": "Tata Inst. of Fundamental Research",
+      "points": 0.2,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Telikepalli Kavitha",
+      "affiliation": "Tata Inst. of Fundamental Research",
+      "points": 0.25,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Telikepalli Kavitha",
+      "affiliation": "Tata Inst. of Fundamental Research",
+      "points": 0.5,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Umang Bhaskar",
+      "affiliation": "Tata Inst. of Fundamental Research",
+      "points": 0.25,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Umang Bhaskar",
+      "affiliation": "Tata Inst. of Fundamental Research",
+      "points": 0.5,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Umesh Bellur",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "V. Krishna Nandivada",
+      "affiliation": "IIT Madras",
+      "points": 0.5,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "V. Krishna Nandivada",
+      "affiliation": "IIT Madras",
+      "points": 0.16666666666666666,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Veezhinathan Kamakoti",
+      "affiliation": "IIT Madras",
+      "points": 0.2,
+      "FOR": [
+        "Distributed computing and systems software",
+        "Cybersecurity and privacy"
+      ]
+    },
+    {
+      "author": "Venkatesh Raman 0001",
+      "affiliation": "IMSc",
+      "points": 0.3333333333333333,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Vikram Goyal",
+      "affiliation": "IIIT Delhi",
+      "points": 0.125,
+      "FOR": ["Machine learning"]
+    },
+    {
+      "author": "Vikram Sharma 0001",
+      "affiliation": "IMSc",
+      "points": 0.5,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Vimal Raj Sharma",
+      "affiliation": "IIT Jodhpur",
+      "points": 0.3333333333333333,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Vimalraj Sharma",
+      "affiliation": "IIT Jodhpur",
+      "points": 0.3333333333333333,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Vinay Namboodiri",
+      "affiliation": "IIT Kanpur",
+      "points": 0.25,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Vinay Namboodiri",
+      "affiliation": "IIT Kanpur",
+      "points": 0.25,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Vinayak Abrol",
+      "affiliation": "IIIT Delhi",
+      "points": 0.5,
+      "FOR": ["Machine learning"]
+    },
+    {
+      "author": "Vinod Ganapathy",
+      "affiliation": "IISc Bangalore",
+      "points": 0.16666666666666666,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Vinod Ganapathy",
+      "affiliation": "IISc Bangalore",
+      "points": 0.3333333333333333,
+      "FOR": ["Cybersecurity and privacy"]
+    },
+    {
+      "author": "Vinod M. Prabhakaran",
+      "affiliation": "Tata Inst. of Fundamental Research",
+      "points": 0.14285714285714285,
+      "FOR": ["Cybersecurity and privacy"]
+    },
+    {
+      "author": "Vinod M. Prabhakaran",
+      "affiliation": "Tata Inst. of Fundamental Research",
+      "points": 0.3333333333333333,
+      "FOR": ["Cybersecurity and privacy", "Theory of computation"]
+    },
+    {
+      "author": "Y. Narahari",
+      "affiliation": "IISc Bangalore",
+      "points": 0.25,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Yadati Narahari",
+      "affiliation": "IISc Bangalore",
+      "points": 0.25,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Yadati Narahari",
+      "affiliation": "IISc Bangalore",
+      "points": 0.2,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Yadati Narahari",
+      "affiliation": "IISc Bangalore",
+      "points": 0.5,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Yashaswi Verma",
+      "affiliation": "IIT Jodhpur",
+      "points": 0.3333333333333333,
+      "FOR": ["Computer vision and multimedia computation"]
     }
   ],
   "2021": [
@@ -7260,6 +8820,304 @@
       "affiliation": "IIIT Hyderabad",
       "points": 0.07142857142857142,
       "FOR": ["Human-centred computing"]
+    },
+    {
+      "author": "Somak Aditya",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.2,
+      "FOR": ["Data management and data science", "Artificial intelligence"]
+    },
+    {
+      "author": "Sougata Sen",
+      "affiliation": "BITS Pilani-Goa",
+      "points": 0.16666666666666666,
+      "FOR": ["Data management and data science"]
+    },
+    {
+      "author": "Sourangshu Bhattacharya",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.16666666666666666,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Sourangshu Bhattacharya",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.25,
+      "FOR": ["Machine learning", "Artificial intelligence"]
+    },
+    {
+      "author": "Sourangshu Bhattacharya",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.2,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Spandan Roy",
+      "affiliation": "IIIT Hyderabad",
+      "points": 0.2,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation"
+      ]
+    },
+    {
+      "author": "Spandan Roy",
+      "affiliation": "IIIT Hyderabad",
+      "points": 0.2,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation"
+      ]
+    },
+    {
+      "author": "Subhajit Roy 0001",
+      "affiliation": "IIT Kanpur",
+      "points": 0.2,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Subhajit Roy 0001",
+      "affiliation": "IIT Kanpur",
+      "points": 0.25,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Subhajit Roy 0001",
+      "affiliation": "IIT Kanpur",
+      "points": 0.3333333333333333,
+      "FOR": [
+        "Artificial intelligence",
+        "Machine learning",
+        "Computer vision and multimedia computation"
+      ]
+    },
+    {
+      "author": "Subhajit Roy 0001",
+      "affiliation": "IIT Kanpur",
+      "points": 0.3333333333333333,
+      "FOR": ["Cybersecurity and privacy"]
+    },
+    {
+      "author": "Subhajit Sen",
+      "affiliation": "IIIT Bangalore",
+      "points": 0.16666666666666666,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Subodh Sharma 0001",
+      "affiliation": "IIT Delhi",
+      "points": 0.3333333333333333,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Subodh Vishnu Sharma",
+      "affiliation": "IIT Delhi",
+      "points": 0.3333333333333333,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Subrahmanyam Kambhampati Venkata",
+      "affiliation": "CMI",
+      "points": 0.25,
+      "FOR": ["Machine learning"]
+    },
+    {
+      "author": "Sudarshan Iyengar",
+      "affiliation": "IIT Ropar",
+      "points": 0.25,
+      "FOR": [
+        "Distributed computing and systems software",
+        "Data management and data science"
+      ]
+    },
+    {
+      "author": "Sudarshan Iyengar",
+      "affiliation": "IIT Ropar",
+      "points": 0.25,
+      "FOR": [
+        "Distributed computing and systems software",
+        "Data management and data science"
+      ]
+    },
+    {
+      "author": "Sukhendu Das",
+      "affiliation": "IIT Madras",
+      "points": 0.3333333333333333,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Sukhendu Das",
+      "affiliation": "IIT Madras",
+      "points": 0.5,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Sumit K. Mandal",
+      "affiliation": "IISc Bangalore",
+      "points": 0.16666666666666666,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Sunil Easaw Simon",
+      "affiliation": "IIT Kanpur",
+      "points": 0.5,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Sunil Simon",
+      "affiliation": "IIT Kanpur",
+      "points": 0.5,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Supratik Chakraborty",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": ["Software engineering", "Theory of computation"]
+    },
+    {
+      "author": "Supratik Chakraborty",
+      "affiliation": "IIT Bombay",
+      "points": 0.25,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Surjya Ghosh",
+      "affiliation": "BITS Pilani-Goa",
+      "points": 0.25,
+      "FOR": ["Human-centred computing"]
+    },
+    {
+      "author": "Swaprava Nath",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Swaroop Joshi",
+      "affiliation": "BITS Pilani-Goa",
+      "points": 0.5,
+      "FOR": ["Human-centred computing"]
+    },
+    {
+      "author": "Syamantak Das",
+      "affiliation": "IIIT Delhi",
+      "points": 0.125,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "T. Venkatesh",
+      "affiliation": "IIT Guwahati",
+      "points": 0.14285714285714285,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Telikepalli Kavitha",
+      "affiliation": "Tata Inst. of Fundamental Research",
+      "points": 0.5,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Tushar Jain",
+      "affiliation": "IIT Mandi",
+      "points": 0.14285714285714285,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "U. Ramakrishna 0001",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.09090909090909091,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Uday Bondhugula",
+      "affiliation": "IISc Bangalore",
+      "points": 0.1,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Uday Bondhugula",
+      "affiliation": "IISc Bangalore",
+      "points": 0.25,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Ujjwal Bhattacharya",
+      "affiliation": "ISI Kolkata",
+      "points": 0.25,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Vinay Namboodiri",
+      "affiliation": "IIT Kanpur",
+      "points": 0.2,
+      "FOR": [
+        "Artificial intelligence",
+        "Machine learning",
+        "Computer vision and multimedia computation"
+      ]
+    },
+    {
+      "author": "Vinayak Abrol",
+      "affiliation": "IIIT Delhi",
+      "points": 0.3333333333333333,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Vineet Gandhi",
+      "affiliation": "IIIT Hyderabad",
+      "points": 0.25,
+      "FOR": ["Machine learning"]
+    },
+    {
+      "author": "Vineet Gandhi",
+      "affiliation": "IIIT Hyderabad",
+      "points": 0.3333333333333333,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Vineet Gandhi",
+      "affiliation": "IIIT Hyderabad",
+      "points": 0.16666666666666666,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation"
+      ]
+    },
+    {
+      "author": "Vineet Gandhi",
+      "affiliation": "IIIT Hyderabad",
+      "points": 0.2,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation"
+      ]
+    },
+    {
+      "author": "Vinod Ganapathy",
+      "affiliation": "IISc Bangalore",
+      "points": 0.25,
+      "FOR": ["Cybersecurity and privacy"]
+    },
+    {
+      "author": "Vinod M. Prabhakaran",
+      "affiliation": "Tata Inst. of Fundamental Research",
+      "points": 0.14285714285714285,
+      "FOR": ["Cybersecurity and privacy"]
+    },
+    {
+      "author": "Vivek Kumar 0001",
+      "affiliation": "IIIT Delhi",
+      "points": 0.14285714285714285,
+      "FOR": ["Data management and data science", "Machine learning"]
     }
   ],
   "2022": [
@@ -9007,6 +10865,721 @@
       "affiliation": "IIT Delhi",
       "points": 0.25,
       "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Somak Aditya",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.1,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Sorav Bansal",
+      "affiliation": "IIT Delhi",
+      "points": 0.2,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Soumen Chakrabarti",
+      "affiliation": "IIT Bombay",
+      "points": 0.25,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Soumen Chakrabarti",
+      "affiliation": "IIT Bombay",
+      "points": 0.2,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Soumen Chakrabarti",
+      "affiliation": "IIT Bombay",
+      "points": 0.2,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Soumen Chakrabarti",
+      "affiliation": "IIT Bombay",
+      "points": 0.2,
+      "FOR": ["Machine learning"]
+    },
+    {
+      "author": "Soumen Chakrabarti",
+      "affiliation": "IIT Bombay",
+      "points": 0.5,
+      "FOR": ["Machine learning"]
+    },
+    {
+      "author": "Soumen Chakrabarti",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": ["Machine learning"]
+    },
+    {
+      "author": "Soumen Chakrabarti",
+      "affiliation": "IIT Bombay",
+      "points": 0.5,
+      "FOR": ["Data management and data science"]
+    },
+    {
+      "author": "Soumen Chakrabarti",
+      "affiliation": "IIT Bombay",
+      "points": 0.25,
+      "FOR": ["Data management and data science", "Machine learning"]
+    },
+    {
+      "author": "Soumyajit Dey",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.25,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Soumyajit Dey",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.2,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Sourangshu Bhattacharya",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.14285714285714285,
+      "FOR": ["Data management and data science", "Machine learning"]
+    },
+    {
+      "author": "Sourangshu Bhattacharya",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.5,
+      "FOR": [
+        "Distributed computing and systems software",
+        "Data management and data science"
+      ]
+    },
+    {
+      "author": "Sourav Kumar Dandapat",
+      "affiliation": "IIT Patna",
+      "points": 0.5,
+      "FOR": [
+        "Distributed computing and systems software",
+        "Data management and data science"
+      ]
+    },
+    {
+      "author": "Srikant Srinivasan",
+      "affiliation": "IIT Mandi",
+      "points": 0.25,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Srikant Srinivasan",
+      "affiliation": "IIT Mandi",
+      "points": 0.3333333333333333,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Srikant Srinivasan",
+      "affiliation": "IIT Mandi",
+      "points": 0.3333333333333333,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Srikanta Bedathur",
+      "affiliation": "IIT Delhi",
+      "points": 0.3333333333333333,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Srikanta Bedathur",
+      "affiliation": "IIT Delhi",
+      "points": 0.25,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Srikanta Bedathur",
+      "affiliation": "IIT Delhi",
+      "points": 0.5,
+      "FOR": ["Data management and data science", "Machine learning"]
+    },
+    {
+      "author": "Srikanta J. Bedathur",
+      "affiliation": "IIT Delhi",
+      "points": 0.3333333333333333,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Srikanta J. Bedathur",
+      "affiliation": "IIT Delhi",
+      "points": 0.25,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Srikanta J. Bedathur",
+      "affiliation": "IIT Delhi",
+      "points": 0.5,
+      "FOR": ["Data management and data science", "Machine learning"]
+    },
+    {
+      "author": "Srinath Srinivasa",
+      "affiliation": "IIIT Bangalore",
+      "points": 0.25,
+      "FOR": ["Applied computing", "Human-centred computing"]
+    },
+    {
+      "author": "Srinath Srinivasa",
+      "affiliation": "IIIT Bangalore",
+      "points": 0.3333333333333333,
+      "FOR": ["Applied computing", "Human-centred computing"]
+    },
+    {
+      "author": "Subhajit Roy 0001",
+      "affiliation": "IIT Kanpur",
+      "points": 0.2,
+      "FOR": ["Software engineering", "Theory of computation"]
+    },
+    {
+      "author": "Subhajit Roy 0001",
+      "affiliation": "IIT Kanpur",
+      "points": 0.25,
+      "FOR": ["Software engineering", "Theory of computation"]
+    },
+    {
+      "author": "Subhajit Roy 0001",
+      "affiliation": "IIT Kanpur",
+      "points": 0.5,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Subhajit Roy 0001",
+      "affiliation": "IIT Kanpur",
+      "points": 0.25,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Subhashis Banerjee",
+      "affiliation": "IIT Delhi",
+      "points": 0.25,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Subodh Sharma 0001",
+      "affiliation": "IIT Delhi",
+      "points": 0.3333333333333333,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Subodh Vishnu Sharma",
+      "affiliation": "IIT Delhi",
+      "points": 0.3333333333333333,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Subrahmanyam Kalyanasundaram",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.3333333333333333,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Sudakshina Dutta",
+      "affiliation": "IIT Goa",
+      "points": 0.5,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Sudakshina Dutta",
+      "affiliation": "IIT Goa",
+      "points": 0.3333333333333333,
+      "FOR": [
+        "Distributed computing and systems software",
+        "Data management and data science"
+      ]
+    },
+    {
+      "author": "Sudarshan Iyengar",
+      "affiliation": "IIT Ropar",
+      "points": 0.25,
+      "FOR": [
+        "Distributed computing and systems software",
+        "Data management and data science"
+      ]
+    },
+    {
+      "author": "Sudeept Mohan",
+      "affiliation": "BITS Pilani",
+      "points": 0.2,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation"
+      ]
+    },
+    {
+      "author": "Sudeshna Kolay",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.2,
+      "FOR": ["Machine learning"]
+    },
+    {
+      "author": "Sudip Roy 0001",
+      "affiliation": "IIT Roorkee",
+      "points": 0.3333333333333333,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Sudip Roy 0001",
+      "affiliation": "IIT Roorkee",
+      "points": 0.3333333333333333,
+      "FOR": ["Machine learning"]
+    },
+    {
+      "author": "Sujit Chakrabarti",
+      "affiliation": "IIIT Bangalore",
+      "points": 0.5,
+      "FOR": ["Applied computing", "Human-centred computing"]
+    },
+    {
+      "author": "Sujit Chakrabarti",
+      "affiliation": "IIIT Bangalore",
+      "points": 0.2,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Sujit Gujar",
+      "affiliation": "IIIT Hyderabad",
+      "points": 0.25,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Sujit Gujar",
+      "affiliation": "IIIT Hyderabad",
+      "points": 0.2,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Sujit Gujar",
+      "affiliation": "IIIT Hyderabad",
+      "points": 0.3333333333333333,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Sujit Gujar",
+      "affiliation": "IIIT Hyderabad",
+      "points": 0.3333333333333333,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Sujit Kumar Chakrabarti",
+      "affiliation": "IIIT Bangalore",
+      "points": 0.5,
+      "FOR": ["Applied computing", "Human-centred computing"]
+    },
+    {
+      "author": "Sujit Kumar Chakrabarti",
+      "affiliation": "IIIT Bangalore",
+      "points": 0.2,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Sumit K. Mandal",
+      "affiliation": "IISc Bangalore",
+      "points": 0.125,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Sunita Sarawagi",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Sunita Sarawagi",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Sunita Sarawagi",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Sunita Sarawagi",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Sunita Sarawagi",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Sunita Sarawagi",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": ["Machine learning"]
+    },
+    {
+      "author": "Sunita Sarawagi",
+      "affiliation": "IIT Bombay",
+      "points": 0.5,
+      "FOR": [
+        "Artificial intelligence",
+        "Machine learning",
+        "Computer vision and multimedia computation"
+      ]
+    },
+    {
+      "author": "Sunita Sarawagi",
+      "affiliation": "IIT Bombay",
+      "points": 0.25,
+      "FOR": ["Machine learning"]
+    },
+    {
+      "author": "Supratik Chakraborty",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": [
+        "Artificial intelligence",
+        "Software engineering",
+        "Theory of computation"
+      ]
+    },
+    {
+      "author": "Supratik Chakraborty",
+      "affiliation": "IIT Bombay",
+      "points": 0.5,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Surampudi Bapi Raju",
+      "affiliation": "IIIT Hyderabad",
+      "points": 0.14285714285714285,
+      "FOR": ["Applied computing", "Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Surender Baswana",
+      "affiliation": "IIT Kanpur",
+      "points": 0.3333333333333333,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Surender Baswana",
+      "affiliation": "IIT Kanpur",
+      "points": 0.5,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Sushanta Karmakar",
+      "affiliation": "IIT Guwahati",
+      "points": 0.25,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Suyash P. Awate",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Swagato Sanyal",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.3333333333333333,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Swaroop Joshi",
+      "affiliation": "BITS Pilani-Goa",
+      "points": 0.16666666666666666,
+      "FOR": ["Human-centred computing"]
+    },
+    {
+      "author": "Syamantak Das",
+      "affiliation": "IIIT Delhi",
+      "points": 0.5,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Syamantak Das",
+      "affiliation": "IIIT Delhi",
+      "points": 0.25,
+      "FOR": ["Machine learning"]
+    },
+    {
+      "author": "Syamantak Das",
+      "affiliation": "IIIT Delhi",
+      "points": 0.25,
+      "FOR": ["Data management and data science", "Machine learning"]
+    },
+    {
+      "author": "Syamantak Das",
+      "affiliation": "IIIT Delhi",
+      "points": 0.25,
+      "FOR": [
+        "Distributed computing and systems software",
+        "Data management and data science"
+      ]
+    },
+    {
+      "author": "Telikepalli Kavitha",
+      "affiliation": "Tata Inst. of Fundamental Research",
+      "points": 0.2,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Telikepalli Kavitha",
+      "affiliation": "Tata Inst. of Fundamental Research",
+      "points": 0.5,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Tushar Jain",
+      "affiliation": "IIT Mandi",
+      "points": 0.3333333333333333,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Tushar Jain",
+      "affiliation": "IIT Mandi",
+      "points": 0.09090909090909091,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Tushar Jain",
+      "affiliation": "IIT Mandi",
+      "points": 0.2,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "U. Pal 0001",
+      "affiliation": "ISI Kolkata",
+      "points": 0.14285714285714285,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Umapada Pal 0001",
+      "affiliation": "ISI Kolkata",
+      "points": 0.14285714285714285,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Umesh Bellur",
+      "affiliation": "IIT Bombay",
+      "points": 0.2,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Varsha Apte",
+      "affiliation": "IIT Bombay",
+      "points": 0.25,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Veezhinathan Kamakoti",
+      "affiliation": "IIT Madras",
+      "points": 0.25,
+      "FOR": ["Data management and data science", "Artificial intelligence"]
+    },
+    {
+      "author": "Vikram Goyal",
+      "affiliation": "IIIT Delhi",
+      "points": 0.25,
+      "FOR": ["Applied computing", "Human-centred computing"]
+    },
+    {
+      "author": "Vikram Goyal",
+      "affiliation": "IIIT Delhi",
+      "points": 0.3333333333333333,
+      "FOR": ["Data management and data science"]
+    },
+    {
+      "author": "Vikram Sharma 0001",
+      "affiliation": "IMSc",
+      "points": 0.16666666666666666,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Vikraman Arvind",
+      "affiliation": "IMSc",
+      "points": 0.3333333333333333,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Vikraman Arvind",
+      "affiliation": "IMSc",
+      "points": 0.5,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Vimal Raj Sharma",
+      "affiliation": "IIT Jodhpur",
+      "points": 0.16666666666666666,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Vimalraj Sharma",
+      "affiliation": "IIT Jodhpur",
+      "points": 0.16666666666666666,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Vinay J. Ribeiro",
+      "affiliation": "IIT Bombay",
+      "points": 0.1,
+      "FOR": ["Machine learning", "Artificial intelligence"]
+    },
+    {
+      "author": "Vinay J. Ribeiro",
+      "affiliation": "IIT Bombay",
+      "points": 0.2,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Vinay Joseph Ribeiro",
+      "affiliation": "IIT Bombay",
+      "points": 0.1,
+      "FOR": ["Machine learning", "Artificial intelligence"]
+    },
+    {
+      "author": "Vinay Joseph Ribeiro",
+      "affiliation": "IIT Bombay",
+      "points": 0.2,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Vinayak Abrol",
+      "affiliation": "IIIT Delhi",
+      "points": 0.5,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Vineet Gandhi",
+      "affiliation": "IIIT Hyderabad",
+      "points": 0.5,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Vinit Jakhetiya",
+      "affiliation": "IIT Jammu",
+      "points": 0.2,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Vinit Jakhetiya",
+      "affiliation": "IIT Jammu",
+      "points": 0.25,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Vinit Jakhetiya",
+      "affiliation": "IIT Jammu",
+      "points": 0.125,
+      "FOR": ["Applied computing", "Data management and data science"]
+    },
+    {
+      "author": "Virendra Singh Shekhawat",
+      "affiliation": "BITS Pilani",
+      "points": 0.2,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation"
+      ]
+    },
+    {
+      "author": "Y. Narahari",
+      "affiliation": "IISc Bangalore",
+      "points": 0.3333333333333333,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Y. Narahari",
+      "affiliation": "IISc Bangalore",
+      "points": 0.25,
+      "FOR": [
+        "Artificial intelligence",
+        "Machine learning",
+        "Computer vision and multimedia computation"
+      ]
+    },
+    {
+      "author": "Y. Narahari",
+      "affiliation": "IISc Bangalore",
+      "points": 0.3333333333333333,
+      "FOR": [
+        "Artificial intelligence",
+        "Machine learning",
+        "Computer vision and multimedia computation"
+      ]
+    },
+    {
+      "author": "Y. Raghu Reddy",
+      "affiliation": "IIIT Hyderabad",
+      "points": 0.25,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Yadati Narahari",
+      "affiliation": "IISc Bangalore",
+      "points": 0.3333333333333333,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Yadati Narahari",
+      "affiliation": "IISc Bangalore",
+      "points": 0.25,
+      "FOR": [
+        "Artificial intelligence",
+        "Machine learning",
+        "Computer vision and multimedia computation"
+      ]
+    },
+    {
+      "author": "Yadati Narahari",
+      "affiliation": "IISc Bangalore",
+      "points": 0.3333333333333333,
+      "FOR": [
+        "Artificial intelligence",
+        "Machine learning",
+        "Computer vision and multimedia computation"
+      ]
     }
   ],
   "2023": [
@@ -12063,6 +14636,906 @@
       "affiliation": "IIT Delhi",
       "points": 0.5,
       "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Somak Aditya",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.2,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Soumen Chakrabarti",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Soumen Chakrabarti",
+      "affiliation": "IIT Bombay",
+      "points": 0.14285714285714285,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Soumen Chakrabarti",
+      "affiliation": "IIT Bombay",
+      "points": 0.25,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Soumen Chakrabarti",
+      "affiliation": "IIT Bombay",
+      "points": 0.2,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Soumen Chakrabarti",
+      "affiliation": "IIT Bombay",
+      "points": 0.16666666666666666,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Soumen Chakrabarti",
+      "affiliation": "IIT Bombay",
+      "points": 0.2,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Soumen Chakrabarti",
+      "affiliation": "IIT Bombay",
+      "points": 0.25,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Soumen Chakrabarti",
+      "affiliation": "IIT Bombay",
+      "points": 0.2,
+      "FOR": ["Machine learning"]
+    },
+    {
+      "author": "Soumyajit Dey",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.3333333333333333,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Soumyajit Dey",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.3333333333333333,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Soumyajit Dey",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.2,
+      "FOR": ["Cybersecurity and privacy"]
+    },
+    {
+      "author": "Soumyajit Dey",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.2,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Sourangshu Bhattacharya",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.16666666666666666,
+      "FOR": ["Machine learning", "Artificial intelligence"]
+    },
+    {
+      "author": "Sourav Chakraborty 0001",
+      "affiliation": "ISI Kolkata",
+      "points": 0.16666666666666666,
+      "FOR": ["Machine learning", "Artificial intelligence"]
+    },
+    {
+      "author": "Sourav Chakraborty 0001",
+      "affiliation": "ISI Kolkata",
+      "points": 0.25,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Sridhar Iyer",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": ["Applied computing", "Human-centred computing"]
+    },
+    {
+      "author": "Srikant Srinivasan",
+      "affiliation": "IIT Mandi",
+      "points": 0.3333333333333333,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Srikant Srinivasan",
+      "affiliation": "IIT Mandi",
+      "points": 0.2,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Srikant Srinivasan",
+      "affiliation": "IIT Mandi",
+      "points": 0.08333333333333333,
+      "FOR": ["Data management and data science", "Machine learning"]
+    },
+    {
+      "author": "Srikant Srinivasan",
+      "affiliation": "IIT Mandi",
+      "points": 0.5,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Srikanta Bedathur",
+      "affiliation": "IIT Delhi",
+      "points": 0.14285714285714285,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Srikanta Bedathur",
+      "affiliation": "IIT Delhi",
+      "points": 0.25,
+      "FOR": ["Machine learning"]
+    },
+    {
+      "author": "Srikanta Bedathur",
+      "affiliation": "IIT Delhi",
+      "points": 0.5,
+      "FOR": ["Data management and data science"]
+    },
+    {
+      "author": "Srikanta J. Bedathur",
+      "affiliation": "IIT Delhi",
+      "points": 0.14285714285714285,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Srikanta J. Bedathur",
+      "affiliation": "IIT Delhi",
+      "points": 0.25,
+      "FOR": ["Machine learning"]
+    },
+    {
+      "author": "Srikanta J. Bedathur",
+      "affiliation": "IIT Delhi",
+      "points": 0.5,
+      "FOR": ["Data management and data science"]
+    },
+    {
+      "author": "Srinath Srinivasa",
+      "affiliation": "IIIT Bangalore",
+      "points": 0.25,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Srinath Srinivasa",
+      "affiliation": "IIIT Bangalore",
+      "points": 0.3333333333333333,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Srinath Srinivasa",
+      "affiliation": "IIIT Bangalore",
+      "points": 0.5,
+      "FOR": ["Data management and data science", "Artificial intelligence"]
+    },
+    {
+      "author": "Srinath Srinivasa",
+      "affiliation": "IIIT Bangalore",
+      "points": 0.2,
+      "FOR": [
+        "Artificial intelligence",
+        "Machine learning",
+        "Computer vision and multimedia computation"
+      ]
+    },
+    {
+      "author": "Sriparna Saha 0001",
+      "affiliation": "IIT Patna",
+      "points": 0.25,
+      "FOR": ["Data management and data science", "Artificial intelligence"]
+    },
+    {
+      "author": "Sriparna Saha 0001",
+      "affiliation": "IIT Patna",
+      "points": 0.2,
+      "FOR": ["Data management and data science", "Artificial intelligence"]
+    },
+    {
+      "author": "Sriparna Saha 0001",
+      "affiliation": "IIT Patna",
+      "points": 0.3333333333333333,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Sriparna Saha 0001",
+      "affiliation": "IIT Patna",
+      "points": 0.25,
+      "FOR": ["Data management and data science"]
+    },
+    {
+      "author": "Sriparna Saha 0001",
+      "affiliation": "IIT Patna",
+      "points": 0.3333333333333333,
+      "FOR": ["Data management and data science"]
+    },
+    {
+      "author": "Subhajit Roy 0001",
+      "affiliation": "IIT Kanpur",
+      "points": 0.25,
+      "FOR": [
+        "Artificial intelligence",
+        "Machine learning",
+        "Computer vision and multimedia computation"
+      ]
+    },
+    {
+      "author": "Subhajit Roy 0001",
+      "affiliation": "IIT Kanpur",
+      "points": 0.5,
+      "FOR": ["Software engineering", "Theory of computation"]
+    },
+    {
+      "author": "Subhajit Roy 0001",
+      "affiliation": "IIT Kanpur",
+      "points": 0.2,
+      "FOR": [
+        "Artificial intelligence",
+        "Machine learning",
+        "Computer vision and multimedia computation"
+      ]
+    },
+    {
+      "author": "Subhajit Roy 0001",
+      "affiliation": "IIT Kanpur",
+      "points": 0.14285714285714285,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Subhajit Sen",
+      "affiliation": "IIIT Bangalore",
+      "points": 0.09090909090909091,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Subhashis Banerjee",
+      "affiliation": "IIT Delhi",
+      "points": 0.125,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Sudeshna Kolay",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.3333333333333333,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Sudip Mishra",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.2,
+      "FOR": ["Data management and data science"]
+    },
+    {
+      "author": "Sudipta Saha",
+      "affiliation": "IIT Bhubaneswar",
+      "points": 0.2,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Sudipta Saha",
+      "affiliation": "IIT Bhubaneswar",
+      "points": 0.5,
+      "FOR": ["Distributed computing and systems software"]
+    },
+    {
+      "author": "Sujit Gujar",
+      "affiliation": "IIIT Hyderabad",
+      "points": 0.3333333333333333,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Sujit Gujar",
+      "affiliation": "IIIT Hyderabad",
+      "points": 0.25,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Sujit Gujar",
+      "affiliation": "IIIT Hyderabad",
+      "points": 0.3333333333333333,
+      "FOR": [
+        "Artificial intelligence",
+        "Machine learning",
+        "Computer vision and multimedia computation"
+      ]
+    },
+    {
+      "author": "Sukomal Pal",
+      "affiliation": "IIT (BHU) Varanasi",
+      "points": 0.3333333333333333,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Suman Banerjee 0002",
+      "affiliation": "IIT Jammu",
+      "points": 0.25,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Suman Banerjee 0002",
+      "affiliation": "IIT Jammu",
+      "points": 0.25,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Sumit Ganguly",
+      "affiliation": "IIT Kanpur",
+      "points": 0.25,
+      "FOR": ["Data management and data science"]
+    },
+    {
+      "author": "Sumit K. Pandey",
+      "affiliation": "IIT Jammu",
+      "points": 0.3333333333333333,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Sunil Easaw Simon",
+      "affiliation": "IIT Kanpur",
+      "points": 0.5,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Sunil Simon",
+      "affiliation": "IIT Kanpur",
+      "points": 0.5,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Sunita Sarawagi",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Sunita Sarawagi",
+      "affiliation": "IIT Bombay",
+      "points": 0.16666666666666666,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Sunita Sarawagi",
+      "affiliation": "IIT Bombay",
+      "points": 0.25,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Sunita Sarawagi",
+      "affiliation": "IIT Bombay",
+      "points": 0.25,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Sunita Sarawagi",
+      "affiliation": "IIT Bombay",
+      "points": 0.2,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Sunita Sarawagi",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": ["Machine learning"]
+    },
+    {
+      "author": "Sunita Sarawagi",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": ["Machine learning"]
+    },
+    {
+      "author": "Supratik Chakraborty",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": ["Software engineering", "Theory of computation"]
+    },
+    {
+      "author": "Supratik Chakraborty",
+      "affiliation": "IIT Bombay",
+      "points": 0.16666666666666666,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Surampudi Bapi Raju",
+      "affiliation": "IIIT Hyderabad",
+      "points": 0.25,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Swagato Sanyal",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.16666666666666666,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Swagato Sanyal",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.3333333333333333,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Swagato Sanyal",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.14285714285714285,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Swagato Sanyal",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.25,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Swagato Sanyal",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.2,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Swaprava Nath",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Swaprava Nath",
+      "affiliation": "IIT Bombay",
+      "points": 0.2,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Swaprava Nath",
+      "affiliation": "IIT Bombay",
+      "points": 0.2,
+      "FOR": [
+        "Artificial intelligence",
+        "Machine learning",
+        "Computer vision and multimedia computation"
+      ]
+    },
+    {
+      "author": "Swaroop Joshi",
+      "affiliation": "BITS Pilani-Goa",
+      "points": 0.2,
+      "FOR": ["Human-centred computing"]
+    },
+    {
+      "author": "Syed Azeemuddin",
+      "affiliation": "IIIT Hyderabad",
+      "points": 0.1111111111111111,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Syed Azeemuddin",
+      "affiliation": "IIIT Hyderabad",
+      "points": 0.14285714285714285,
+      "FOR": ["Software engineering"]
+    },
+    {
+      "author": "Tanima Dutta",
+      "affiliation": "IIT (BHU) Varanasi",
+      "points": 0.3333333333333333,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Telikepalli Kavitha",
+      "affiliation": "Tata Inst. of Fundamental Research",
+      "points": 0.5,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Tushar Jain",
+      "affiliation": "IIT Mandi",
+      "points": 0.2,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Tushar Jain",
+      "affiliation": "IIT Mandi",
+      "points": 0.16666666666666666,
+      "FOR": ["Machine learning"]
+    },
+    {
+      "author": "Uday Bondhugula",
+      "affiliation": "IISc Bangalore",
+      "points": 0.5,
+      "FOR": [
+        "Software engineering",
+        "Distributed computing and systems software"
+      ]
+    },
+    {
+      "author": "Vasudeva Varma",
+      "affiliation": "IIIT Hyderabad",
+      "points": 0.16666666666666666,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Vasudeva Varma",
+      "affiliation": "IIIT Hyderabad",
+      "points": 0.16666666666666666,
+      "FOR": [
+        "Distributed computing and systems software",
+        "Data management and data science"
+      ]
+    },
+    {
+      "author": "Vasudeva Varma",
+      "affiliation": "IIIT Hyderabad",
+      "points": 0.16666666666666666,
+      "FOR": [
+        "Distributed computing and systems software",
+        "Data management and data science"
+      ]
+    },
+    {
+      "author": "Veezhinathan Kamakoti",
+      "affiliation": "IIT Madras",
+      "points": 0.25,
+      "FOR": [
+        "Distributed computing and systems software",
+        "Cybersecurity and privacy"
+      ]
+    },
+    {
+      "author": "Vikram Goyal",
+      "affiliation": "IIIT Delhi",
+      "points": 0.2,
+      "FOR": ["Data management and data science", "Machine learning"]
+    },
+    {
+      "author": "Vikram Goyal",
+      "affiliation": "IIIT Delhi",
+      "points": 0.25,
+      "FOR": ["Data management and data science", "Artificial intelligence"]
+    },
+    {
+      "author": "Vikram Goyal",
+      "affiliation": "IIIT Delhi",
+      "points": 0.25,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Vikram Goyal",
+      "affiliation": "IIIT Delhi",
+      "points": 0.3333333333333333,
+      "FOR": ["Data management and data science", "Machine learning"]
+    },
+    {
+      "author": "Vikram Goyal",
+      "affiliation": "IIIT Delhi",
+      "points": 0.25,
+      "FOR": ["Data management and data science", "Machine learning"]
+    },
+    {
+      "author": "Vikram Sharma 0001",
+      "affiliation": "IMSc",
+      "points": 0.16666666666666666,
+      "FOR": ["Data management and data science", "Machine learning"]
+    },
+    {
+      "author": "Vikraman Arvind",
+      "affiliation": "IMSc",
+      "points": 0.2,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Vikraman Arvind",
+      "affiliation": "IMSc",
+      "points": 0.5,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Vinay Namboodiri",
+      "affiliation": "IIT Kanpur",
+      "points": 0.3333333333333333,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Vinay Namboodiri",
+      "affiliation": "IIT Kanpur",
+      "points": 0.3333333333333333,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Vinay Namboodiri",
+      "affiliation": "IIT Kanpur",
+      "points": 0.5,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Vinay Namboodiri",
+      "affiliation": "IIT Kanpur",
+      "points": 0.25,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Vinay Namboodiri",
+      "affiliation": "IIT Kanpur",
+      "points": 0.2,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Vinay Namboodiri",
+      "affiliation": "IIT Kanpur",
+      "points": 0.2,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Vinay Namboodiri",
+      "affiliation": "IIT Kanpur",
+      "points": 0.16666666666666666,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Vineet Gandhi",
+      "affiliation": "IIIT Hyderabad",
+      "points": 0.2,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Vineet Gandhi",
+      "affiliation": "IIIT Hyderabad",
+      "points": 0.3333333333333333,
+      "FOR": ["Machine learning"]
+    },
+    {
+      "author": "Vineet Gandhi",
+      "affiliation": "IIIT Hyderabad",
+      "points": 0.2,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Vineeth Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.25,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Vineeth Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.2,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Vineeth Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.08333333333333333,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Vineeth Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.16666666666666666,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Vineeth Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.25,
+      "FOR": ["Machine learning"]
+    },
+    {
+      "author": "Vineeth Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.16666666666666666,
+      "FOR": ["Machine learning"]
+    },
+    {
+      "author": "Vineeth Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.5,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Vineeth Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.2,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Vineeth N. Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.08333333333333333,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Vineeth N. Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.25,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Vineeth N. Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.2,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Vineeth N. Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.16666666666666666,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Vineeth N. Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.25,
+      "FOR": ["Machine learning"]
+    },
+    {
+      "author": "Vineeth N. Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.16666666666666666,
+      "FOR": ["Machine learning"]
+    },
+    {
+      "author": "Vineeth N. Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.5,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Vineeth N. Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.2,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Vineeth Nallure Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.25,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Vineeth Nallure Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.2,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Vineeth Nallure Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.08333333333333333,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Vineeth Nallure Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.16666666666666666,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Vineeth Nallure Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.25,
+      "FOR": ["Machine learning"]
+    },
+    {
+      "author": "Vineeth Nallure Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.16666666666666666,
+      "FOR": ["Machine learning"]
+    },
+    {
+      "author": "Vineeth Nallure Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.5,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Vineeth Nallure Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.2,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Vinit Jakhetiya",
+      "affiliation": "IIT Jammu",
+      "points": 0.25,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Vinit Jakhetiya",
+      "affiliation": "IIT Jammu",
+      "points": 0.2,
+      "FOR": ["Computer vision and multimedia computation"]
+    },
+    {
+      "author": "Vinod Ganapathy",
+      "affiliation": "IISc Bangalore",
+      "points": 0.5,
+      "FOR": ["Cybersecurity and privacy"]
+    },
+    {
+      "author": "Vinod M. Prabhakaran",
+      "affiliation": "Tata Inst. of Fundamental Research",
+      "points": 0.125,
+      "FOR": ["Machine learning"]
+    },
+    {
+      "author": "Vivek Kumar 0001",
+      "affiliation": "IIIT Delhi",
+      "points": 0.07692307692307693,
+      "FOR": ["Machine learning"]
+    },
+    {
+      "author": "Y. Narahari",
+      "affiliation": "IISc Bangalore",
+      "points": 0.25,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Yadati Narahari",
+      "affiliation": "IISc Bangalore",
+      "points": 0.25,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Yamuna Prasad",
+      "affiliation": "IIT Jammu",
+      "points": 0.25,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
     }
   ],
   "2024": [
@@ -12493,6 +15966,228 @@
       "affiliation": "IISc Bangalore",
       "points": 0.25,
       "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Soumen Chakrabarti",
+      "affiliation": "IIT Bombay",
+      "points": 0.16666666666666666,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Soumyajit Dey",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.3333333333333333,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Sriparna Saha 0001",
+      "affiliation": "IIT Patna",
+      "points": 0.2,
+      "FOR": ["Data management and data science"]
+    },
+    {
+      "author": "Subrahmanyam Kalyanasundaram",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.25,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Sudeshna Sarkar",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.3333333333333333,
+      "FOR": ["Data management and data science"]
+    },
+    {
+      "author": "Suman Kundu",
+      "affiliation": "IIT Jodhpur",
+      "points": 0.25,
+      "FOR": ["Data management and data science"]
+    },
+    {
+      "author": "Sunita Sarawagi",
+      "affiliation": "IIT Bombay",
+      "points": 0.25,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Supratik Chakraborty",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Supratik Chakraborty",
+      "affiliation": "IIT Bombay",
+      "points": 0.3333333333333333,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Swagato Sanyal",
+      "affiliation": "IIT Kharagpur",
+      "points": 0.5,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Tanima Dutta",
+      "affiliation": "IIT (BHU) Varanasi",
+      "points": 0.5,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Umang Bhaskar",
+      "affiliation": "Tata Inst. of Fundamental Research",
+      "points": 0.25,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Vikram Goyal",
+      "affiliation": "IIIT Delhi",
+      "points": 0.2,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Vikraman Arvind",
+      "affiliation": "IMSc",
+      "points": 0.25,
+      "FOR": ["Theory of computation"]
+    },
+    {
+      "author": "Vinay Namboodiri",
+      "affiliation": "IIT Kanpur",
+      "points": 0.2,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Vineet Gandhi",
+      "affiliation": "IIIT Hyderabad",
+      "points": 0.16666666666666666,
+      "FOR": ["Artificial intelligence"]
+    },
+    {
+      "author": "Vineeth Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.25,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Vineeth Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.5,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Vineeth Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.14285714285714285,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Vineeth N. Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.25,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Vineeth N. Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.5,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Vineeth N. Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.14285714285714285,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Vineeth Nallure Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.25,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Vineeth Nallure Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.5,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
+    },
+    {
+      "author": "Vineeth Nallure Balasubramanian",
+      "affiliation": "IIT Hyderabad",
+      "points": 0.14285714285714285,
+      "FOR": [
+        "Artificial intelligence",
+        "Computer vision and multimedia computation",
+        "Machine learning"
+      ]
     }
   ],
   "reverse": true
