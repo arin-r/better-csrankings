@@ -1,5 +1,6 @@
+"use client";
 import Link from "next/link";
-import { Menu, Package2, Search } from "lucide-react";
+import { Menu, Package2, Search, University } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -14,7 +15,8 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { PublicationWithoutAffiliation } from "@/lib/types";
+import { Filters, PublicationWithoutAffiliation } from "@/lib/types";
+import { useState } from "react";
 
 const countUniqueAuthors = (
   publications: PublicationWithoutAffiliation[]
@@ -33,6 +35,35 @@ const MainPage = ({
 }: {
   publicationsByAffiliation: [string, PublicationWithoutAffiliation[]][];
 }) => {
+  const [filters, setFilters] = useState<Filters>({
+    startYear: "1986",
+    endYear: "2023",
+    universityName: "",
+    areasOfResearch: [],
+  });
+
+  const filteredPublicationsByAffiliation: [
+    string,
+    PublicationWithoutAffiliation[],
+  ][] = publicationsByAffiliation
+    .filter((pubByAff) => {
+      const [affiliation, publications] = pubByAff;
+      return affiliation.includes(filters.universityName);
+    })
+    .map((pubByAff) => {
+      const [affiliation, publications] = pubByAff;
+      let filteredPublications = publications.filter((pub) => {
+        return (
+          parseInt(pub.year) >= parseInt(filters.startYear) &&
+          parseInt(pub.year) <= parseInt(filters.endYear)
+        );
+      });
+
+      return [affiliation, filteredPublications];
+    });
+  let sortedAndFilteredPublicationsByAffiliation = filteredPublicationsByAffiliation.sort(
+    (a, b) => b[1].length - a[1].length
+  );
   return (
     <div className="grid min-h-screen w-full md:grid-cols-[220px_1fr] lg:grid-cols-[280px_1fr]">
       <div className="hidden border-r bg-muted/40 md:block">
@@ -44,7 +75,7 @@ const MainPage = ({
             </Link>
           </div>
           <div className="p-4">
-            <SearchFilters />
+            <SearchFilters setFilters={setFilters} />
           </div>
         </div>
       </div>
@@ -72,7 +103,7 @@ const MainPage = ({
                 </Link>
               </nav>
               <div className="mt-5">
-                <SearchFilters />
+                <SearchFilters setFilters={setFilters} />
               </div>
             </SheetContent>
           </Sheet>
@@ -104,9 +135,9 @@ const MainPage = ({
               </TableRow>
             </TableHeader>
             <TableBody>
-              {publicationsByAffiliation.map((pubByAff, idx) => {
+              {sortedAndFilteredPublicationsByAffiliation.map((pubByAff, idx) => {
                 const [affiliation, publications] = pubByAff;
-                console.log("publications = ", publications);
+
                 return (
                   /// wrong practice to use idx as key
                   <TableRow key={idx}>

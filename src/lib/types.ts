@@ -19,3 +19,10 @@ export interface PublicationWithoutAffiliation {
 export interface PublicationsByAffiliation {
     [affiliation: string]: PublicationWithoutAffiliation[];
 }
+
+export interface Filters {
+    startYear: string;
+    endYear: string;
+    universityName: string;
+    areasOfResearch: string[];
+}

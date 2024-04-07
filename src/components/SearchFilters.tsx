@@ -10,29 +10,13 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
-import { Check, ChevronsUpDown } from "lucide-react";
-
-import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import {
-  Command,
-  CommandEmpty,
-  CommandGroup,
-  CommandInput,
-  CommandItem,
-} from "@/components/ui/command";
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "@/components/ui/popover";
 import * as React from "react";
 import { Label } from "./ui/label";
 import { Input } from "./ui/input";
 import {
   AlertDialog,
   AlertDialogAction,
-  AlertDialogCancel,
   AlertDialogContent,
   AlertDialogDescription,
   AlertDialogFooter,
@@ -40,8 +24,13 @@ import {
   AlertDialogTitle,
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
+import { Filters } from "@/lib/types";
 
-const SearchFilters = () => {
+const SearchFilters = ({
+  setFilters,
+}: {
+  setFilters: React.Dispatch<React.SetStateAction<Filters>>;
+}) => {
   const [openAlertDialog, setOpenAlertDialog] = useState(false);
   const [startYear, setStartYear] = useState("1986");
   const [endYear, setEndYear] = useState("2023");
@@ -152,10 +141,10 @@ const SearchFilters = () => {
             className="w-full mt-4"
             onClick={() => {
               const yearRegex = /^[1-9]\d*$/;
-              if (startYear =="") {
+              if (startYear == "") {
                 setEndYear("1986");
               }
-              if (endYear =="") {
+              if (endYear == "") {
                 setEndYear("2023");
               }
               const isValid =
@@ -164,6 +153,12 @@ const SearchFilters = () => {
                 parseInt(startYear) < parseInt(endYear);
               if (!isValid) {
                 setOpenAlertDialog(true);
+              } else {
+                setFilters((prev) => ({
+                  ...prev,
+                  startYear,
+                  endYear,
+                }));
               }
             }}
           >
