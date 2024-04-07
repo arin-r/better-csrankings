@@ -59,7 +59,7 @@ const SearchFilters = ({
         <CardHeader className="p-2 pt-2 md:p-4">
           <CardTitle>Areas</CardTitle>
           <CardDescription>
-            Select the areas you want to search for.
+            Select the areas you want to search for. Scroll to view more.
           </CardDescription>
         </CardHeader>
         <CardContent className="p-2 pt-0 md:p-4 md:pt-0">
