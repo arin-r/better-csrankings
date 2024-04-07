@@ -1,8 +1,5 @@
 import Link from "next/link";
-import {
-  Menu, Package2,
-  Search
-} from "lucide-react";
+import { Menu, Package2, Search } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -15,8 +12,147 @@ import {
 import { Input } from "@/components/ui/input";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import SearchFilters from "@/components/SearchFilters";
+import {
+  Table,
+  TableBody,
+  TableCaption,
+  TableCell,
+  TableFooter,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+import axios from "axios";
+import {
+  PublicationWithoutAffiliation,
+  PublicationsByAffiliation,
+  PublicationsByYear,
+} from "@/lib/types";
 
-function Dashboard() {
+import { promises as fs } from "fs";
+import path from "path";
+
+const invoices = [
+  {
+    invoice: "INV001",
+    paymentStatus: "Paid",
+    totalAmount: "$250.00",
+    paymentMethod: "Credit Card",
+  },
+  {
+    invoice: "INV002",
+    paymentStatus: "Pending",
+    totalAmount: "$150.00",
+    paymentMethod: "PayPal",
+  },
+  {
+    invoice: "INV003",
+    paymentStatus: "Unpaid",
+    totalAmount: "$350.00",
+    paymentMethod: "Bank Transfer",
+  },
+  {
+    invoice: "INV004",
+    paymentStatus: "Paid",
+    totalAmount: "$450.00",
+    paymentMethod: "Credit Card",
+  },
+  {
+    invoice: "INV005",
+    paymentStatus: "Paid",
+    totalAmount: "$550.00",
+    paymentMethod: "PayPal",
+  },
+  {
+    invoice: "INV006",
+    paymentStatus: "Pending",
+    totalAmount: "$200.00",
+    paymentMethod: "Bank Transfer",
+  },
+  {
+    invoice: "INV007",
+    paymentStatus: "Unpaid",
+    totalAmount: "$300.00",
+    paymentMethod: "Credit Card",
+  },
+];
+
+function convertToPublicationsByAffiliation(
+  publicationsByYear: PublicationsByYear
+): PublicationsByAffiliation {
+  const publicationsByAffiliation: PublicationsByAffiliation = {};
+
+  for (const [year, pubs] of Object.entries(publicationsByYear)) {
+    // Soometimes pubs is not an array, I encountered a value "true" for some reason.
+    // Hence I added this check to make sure it is an array before iterating over it.
+    if (pubs.length != undefined) {
+      // console.log("pubs = ", pubs);
+      pubs.forEach((pub) => {
+        const { author, affiliation, points, FOR } = pub;
+        const publicationWithoutAffiliation: PublicationWithoutAffiliation = {
+          author,
+          points,
+          FOR,
+          year,
+        };
+
+        if (!publicationsByAffiliation[affiliation]) {
+          publicationsByAffiliation[affiliation] = [
+            publicationWithoutAffiliation,
+          ];
+        } else {
+          publicationsByAffiliation[affiliation].push(
+            publicationWithoutAffiliation
+          );
+        }
+      });
+    }
+  }
+
+  return publicationsByAffiliation;
+}
+
+function sortPublicationsByAffiliation(
+  publicationsByAffiliation: PublicationsByAffiliation
+): [string, PublicationWithoutAffiliation[]][] {
+  const sortedPublicationsByAffiliation: PublicationsByAffiliation = {};
+
+  // Create an array of arrays [affiliation, publications] for sorting
+  const sortedArray = Object.entries(publicationsByAffiliation).sort(
+    (a, b) => b[1].length - a[1].length
+  ); // Sort by number of publications, descending
+  return sortedArray;
+}
+
+const getData = async () => {
+  const fileData = await fs.readFile(
+    path.join(process.cwd(), "public", "data.json"),
+    "utf8"
+  );
+  const jsonData = JSON.parse(fileData);
+  const data = jsonData as PublicationsByYear;
+  const publicationsByAffiliation = convertToPublicationsByAffiliation(data);
+  const sortedPublicationsByAffiliation = sortPublicationsByAffiliation(
+    publicationsByAffiliation
+  );
+
+  return sortedPublicationsByAffiliation;
+};
+
+function countUniqueAuthors(publications: PublicationWithoutAffiliation[]): number {
+    const uniqueAuthors = new Set<string>();
+
+    publications.forEach(publication => {
+        uniqueAuthors.add(publication.author);
+    });
+
+    return uniqueAuthors.size;
+}
+
+
+const Dashboard = async () => {
+  const publicationsByAffiliation = await getData();
+  console.log;
   return (
     <div className="grid min-h-screen w-full md:grid-cols-[220px_1fr] lg:grid-cols-[280px_1fr]">
       <div className="hidden border-r bg-muted/40 md:block">
@@ -36,7 +172,7 @@ function Dashboard() {
                 </CardDescription>
               </CardHeader>
               <CardContent className="p-2 pt-0 md:p-4 md:pt-0">
-                <SearchFilters /> 
+                <SearchFilters />
               </CardContent>
             </Card>
           </div>
@@ -94,11 +230,39 @@ function Dashboard() {
           </div>
         </header>
         <main className="flex flex-1 flex-col gap-4 p-4 lg:gap-6 lg:p-6">
-          Main Feed Here
+          <Table>
+            <TableCaption>
+              Indian publications categorized by affiliations (universities)
+            </TableCaption>
+            <TableHeader>
+              <TableRow>
+                <TableHead className="w-[50px]">#</TableHead>
+                {/* <TableHead>University</TableHead> */}
+                <TableHead>University</TableHead>
+                <TableHead className="text-right">Publications</TableHead>
+                <TableHead className="text-right">Faculty</TableHead>
+              </TableRow>
+            </TableHeader>
+            <TableBody>
+              {publicationsByAffiliation.map((pubByAff, idx) => {
+                const [affiliation, publications] = pubByAff;
+                console.log("publications = ", publications);
+                return (
+                  /// wrong practice to use idx as key
+                  <TableRow key={idx}>
+                    <TableCell className="font-medium">{idx+1}</TableCell>
+                    <TableCell>{affiliation}</TableCell>
+                    <TableCell className="text-right">{publications.length}</TableCell>
+                    <TableCell className="text-right">{countUniqueAuthors(publications)}</TableCell>
+                  </TableRow>
+                );
+              })}
+            </TableBody>
+          </Table>
         </main>
       </div>
     </div>
   );
-}
+};
 
 export default Dashboard;
