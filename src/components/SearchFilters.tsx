@@ -63,7 +63,7 @@ const SearchFilters = ({
           </CardDescription>
         </CardHeader>
         <CardContent className="p-2 pt-0 md:p-4 md:pt-0">
-          <div className="space-y-3 h-[12rem] md:h-[10rem] overflow-scroll">
+          <div className="space-y-3 h-[10rem] md:h-[10rem] overflow-scroll">
             {areas.map((area) => {
               return (
                 <div key={area.value} className="flex items-center space-x-2">
