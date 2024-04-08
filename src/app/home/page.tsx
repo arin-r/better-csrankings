@@ -71,7 +71,7 @@ const getData = async () => {
 
 const Dashboard = async () => {
   const publicationsByAffiliation = await getData();
-  console.log;
+  console.log("publicationsByAffiliation", publicationsByAffiliation[15][1]);
   return (
     <MainPage publicationsByAffiliation={publicationsByAffiliation}/>
   );

@@ -18,15 +18,24 @@ import {
 import { Filters, PublicationWithoutAffiliation, areas } from "@/lib/types";
 import { useState } from "react";
 
+const getFirstWord = (str: string) => {
+    // Split the string by whitespace
+    var words = str.trim().split(/\s+/);
+    
+    // Return the first word
+    return words[0];
+}
+
 const countUniqueAuthors = (
   publications: PublicationWithoutAffiliation[]
 ): number => {
   const uniqueAuthors = new Set<string>();
 
   publications.forEach((publication) => {
-    uniqueAuthors.add(publication.author);
+    uniqueAuthors.add(getFirstWord(publication.author));
   });
 
+  console.log("uniqueAuthors", uniqueAuthors);
   return uniqueAuthors.size;
 };
 
@@ -153,7 +162,9 @@ const MainPage = ({
               {sortedAndFilteredPublicationsByAffiliation.map(
                 (pubByAff, idx) => {
                   const [affiliation, publications] = pubByAff;
-
+                  if (idx === 14) {
+                    console.log("publicationsByAffiliation", publications);
+                  }
                   return (
                     /// wrong practice to use idx as key
                     <TableRow key={idx}>
