@@ -35,7 +35,7 @@ const countUniqueAuthors = (
     uniqueAuthors.add(getFirstWord(publication.author));
   });
 
-  console.log("uniqueAuthors", uniqueAuthors);
+  //console.log("uniqueAuthors", uniqueAuthors);
   return uniqueAuthors.size;
 };
 
@@ -162,9 +162,6 @@ const MainPage = ({
               {sortedAndFilteredPublicationsByAffiliation.map(
                 (pubByAff, idx) => {
                   const [affiliation, publications] = pubByAff;
-                  if (idx === 14) {
-                    console.log("publicationsByAffiliation", publications);
-                  }
                   return (
                     /// wrong practice to use idx as key
                     <TableRow key={idx}>
